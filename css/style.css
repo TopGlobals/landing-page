@@ -1,0 +1,44 @@
+/* Basic project styles */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+	color: #222;
+	background-color: #fff;
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+	font: inherit;
+}
+
+.container {
+	width: min(100% - 2rem, 1200px);
+	margin-inline: auto;
+}
