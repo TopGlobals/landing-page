@@ -1,44 +1,64 @@
-/* Basic project styles */
-
+/* Base styles */
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-	font-size: 16px;
-	scroll-behavior: smooth;
+  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
-	margin: 0;
-	min-width: 320px;
-	color: #222;
-	background-color: #fff;
-	font-family: Arial, sans-serif;
-	line-height: 1.5;
+  margin: 0;
+  min-width: 320px;
+  color: #0f172a;
+  background-color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  line-height: 1.5;
 }
 
 img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  display: block;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 button,
 input,
 textarea,
 select {
-	font: inherit;
+  font: inherit;
 }
 
 .container {
-	width: min(100% - 2rem, 1200px);
-	margin-inline: auto;
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
+}
+
+.hero-bg-gradient {
+  background: radial-gradient(circle at 65% 30%, rgba(167, 243, 208, 0.45) 0%, rgba(209, 250, 229, 0.25) 35%, rgba(255, 255, 255, 0) 70%);
+}
+
+.pricing-bg-gradient {
+  background: radial-gradient(circle at 50% 50%, rgba(209, 250, 229, 0.5) 0%, rgba(240, 253, 250, 0.3) 45%, rgba(255, 255, 255, 0) 75%);
+}
+
+.cta-banner-gradient {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
+}
+
+::selection {
+  background: rgba(16, 185, 129, 0.18);
+  color: #047857;
 }
