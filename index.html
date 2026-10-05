@@ -1,227 +1,850 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Automated laboratory monitoring to help prevent the loss of reagents and vaccines in real time.">
-    <title>CryoVigil - Smart Monitoring for Safe Laboratories</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container header-content">
-        <a class="brand" href="index.html" aria-label="CryoVigil home">
-          <img class="brand-logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmtWB91QpypVaIES8sn6jdgXu1mJr1BdqTaqUP_Pk08wsuH5xg61UcXCqMqOPUJ3FTPZSmFytvRrsMhyw3P1F_XpSi4GmQoWkn3xlVv_M4mGHmLe352Cotio_VXDMurUIfWnwhtTlnKuz0LANOmEhTkXmo-cW3qoBSpkElK5tFDj4yY_bxwrj6G6UL__k7ZkPcVEh5lgPKyhYhGG9KhDgMz1mXBOQdJNJ_n8jbk06Fr7ZurDR_i1snQhBPgXq4Lvvp" alt="">
-          <span class="brand-name">Cryo<span>Vigil</span></span>
-        </a>
-        <nav class="main-navigation" aria-label="Main navigation">
-          <a href="#features">Features</a>
-          <a href="#benefits">Benefits</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#contact">Contact Us</a>
-        </nav>
-        <a class="button button-primary header-cta" href="about:blank" target="_blank" rel="noopener noreferrer">Request Demo</a>
-      </div>
-    </header>
-
-    <main>
-      <section class="hero-section">
-        <div class="container hero-content">
-          <div class="hero-copy">
-            <h1>Smart Monitoring for Safe Laboratories</h1>
-            <p>Automated platform to prevent the loss of reagents and vaccines in real time.</p>
-            <div class="button-row">
-              <a class="button button-primary" href="about:blank" target="_blank" rel="noopener noreferrer">Try Demo</a>
-              <a class="button button-secondary" href="#features">View Features</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Automated platform to prevent the loss of reagents and vaccines in real time. Trusted by 500+ laboratories worldwide.">
+  <title>CryoVigil | Smart Monitoring for Safe Laboratories</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="flex flex-col min-h-screen text-slate-800">
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 transition-all">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a aria-label="CryoVigil Home" class="flex items-center gap-2.5 focus:outline-none" href="about:blank" target="_blank" rel="noopener noreferrer">
+<img class="w-9 h-9 rounded-lg object-cover" src="assets/img/logo_cryovigil.jpeg" alt="" />
+<span class="text-xl font-bold tracking-tight text-slate-900">CryoVigil</span>
+</a>
+<!-- Desktop Navigation Menu -->
+<nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+<a class="hover:text-brand-600 transition-colors" href="#features">Features</a>
+<a class="hover:text-brand-600 transition-colors" href="#target-audience">Target Audience</a>
+<a class="hover:text-brand-600 transition-colors" href="#videos">Videos</a>
+<a class="hover:text-brand-600 transition-colors" href="#pricing">Pricing</a>
+<a class="hover:text-brand-600 transition-colors" href="#about-us">About Us</a>
+</nav>
+<!-- Language Toggle & CTA -->
+<div class="flex items-center gap-4">
+<!-- Language Switcher -->
+<div aria-label="Choose language" class="language-switcher" role="group">
+<button aria-pressed="true" class="language-option" data-language="en" type="button">EN</button>
+<button aria-pressed="false" class="language-option" data-language="es" type="button">ES</button>
+</div>
+<!-- Mobile Menu Trigger -->
+<button aria-label="Toggle Navigation" aria-controls="mobile-menu" aria-expanded="false" class="md:hidden p-2 text-slate-600 hover:text-slate-900 focus:outline-none" id="mobile-menu-btn" type="button">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Mobile Dropdown Navigation -->
+<div class="hidden md:hidden border-b border-slate-200 bg-white px-4 pt-2 pb-6 space-y-3" id="mobile-menu">
+<a class="block py-2 text-slate-600 font-medium" href="#features">Features</a>
+<a class="block py-2 text-slate-600 font-medium" href="#target-audience">Target Audience</a>
+<a class="block py-2 text-slate-600 font-medium" href="#videos">Videos</a>
+<a class="block py-2 text-slate-600 font-medium" href="#pricing">Pricing</a>
+<a class="block py-2 text-slate-600 font-medium" href="#about-us">About Us</a>
+</div>
+</header>
+<!-- END: MainHeader -->
+<main class="flex-grow">
+<!-- BEGIN: HeroSection -->
+<section class="pt-12 pb-20 lg:pt-16 lg:pb-28 overflow-hidden bg-gradient-to-b from-white via-slate-50/50 to-white" data-purpose="hero-section">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Hero Text Content -->
+<div class="lg:col-span-5 text-left">
+<div class="inline-block mb-4">
+<span class="badge-pill">IoT-Powered Laboratory Monitoring</span>
+</div>
+<h1 class="text-4xl sm:text-5xl lg:text-[54px] font-extrabold text-slate-900 tracking-tight leading-[1.12] mb-6">
+              Smart Monitoring for Safe Laboratories
+            </h1>
+<p class="text-base sm:text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
+              Automated platform to prevent the loss of reagents and vaccines in real time. Trusted by 500+ labs worldwide.
+            </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="inline-flex justify-center items-center px-6 py-3.5 rounded-lg bg-brand-500 text-white font-medium hover:bg-brand-600 transition-colors shadow-sm shadow-brand-500/25" href="#pricing">
+                Explore Solutions
+              </a>
+<a class="inline-flex justify-center items-center px-6 py-3.5 rounded-lg border border-slate-200 bg-white text-slate-700 font-medium hover:bg-slate-50 transition-colors" href="#features">
+                View Features
+              </a>
+</div>
+</div>
+<!-- Hero UI Mockup Illustration -->
+<div class="lg:col-span-7 relative">
+  <img
+    src="assets/img/lab_details.jpeg"
+    alt="Laboratory monitoring dashboard"
+    class="w-full max-w-[760px] rounded-xl border border-slate-200 bg-white p-2 shadow-mockup"
+  />
+</div>
+</div>
+<!-- Trusted Logos Bar -->
+<div class="mt-20 pt-10 border-t border-slate-100 text-center">
+<p class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-8">
+            Trusted by leading laboratories worldwide
+          </p>
+<div class="flex flex-wrap items-center justify-center gap-8 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition-all">
+<!-- Logo 1 -->
+<div class="flex items-center gap-2 font-bold text-slate-700 text-xl tracking-tight">
+<svg class="w-6 h-6 text-brand-600" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+<span>Logoipsum</span>
+</div>
+<!-- Logo 2 -->
+<div class="flex items-center gap-2 font-bold text-slate-700 text-xl tracking-tight">
+<div class="w-5 h-5 rounded-full bg-brand-500"></div>
+<span>Logoipsum</span>
+</div>
+<!-- Logo 3 -->
+<div class="flex items-center gap-2 font-bold text-slate-700 text-xl tracking-tight">
+<div class="flex gap-0.5">
+<span class="w-1.5 h-5 bg-brand-700"></span>
+<span class="w-1.5 h-5 bg-brand-500"></span>
+<span class="w-1.5 h-5 bg-brand-300"></span>
+</div>
+<span>Logoipsum</span>
+</div>
+<!-- Logo 4 -->
+<div class="flex items-center gap-2 font-bold text-slate-700 text-xl tracking-tight">
+<svg class="w-6 h-6 text-brand-600" fill="currentColor" viewbox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle></svg>
+<span>Logoipsum</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: CoreCapabilitiesSection -->
+<section class="py-20 bg-slate-50/50" data-purpose="core-capabilities" id="features">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<span class="badge-pill mb-3">Core Capabilities</span>
+<h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
+          Key Features for Complete Control
+        </h2>
+<p class="text-slate-600 max-w-2xl mx-auto mb-16 text-sm sm:text-base">
+          Everything you need to protect your lab assets and maintain regulatory compliance.
+        </p>
+<!-- Feature Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+<!-- Feature 1: Real-time Alerts -->
+<div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-soft hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-6">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 mb-2">Real-time Alerts</h3>
+<p class="text-slate-600 text-sm leading-relaxed mb-6">
+              Get instant SMS and email notifications the second a temperature deviation occurs.
+            </p>
+<ul class="space-y-2.5 text-xs text-slate-600 font-medium">
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                SMS + email + push alerts
+              </li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                Configurable thresholds per sensor
+              </li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                Escalation chains and on-call scheduling
+              </li>
+</ul>
+</div>
+<!-- Feature 2: Compliance Reporting -->
+<div class="bg-navy-900 text-white p-8 rounded-2xl border border-navy-800 shadow-soft relative overflow-hidden">
+<div class="w-12 h-12 rounded-xl bg-slate-800 text-brand-400 flex items-center justify-center mb-6">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-xl font-bold mb-2">Compliance Reporting</h3>
+<p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Generate audit-ready logs and export historical data, saving your team hours of manual recording.
+            </p>
+<ul class="space-y-2.5 text-xs text-slate-300 font-medium">
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-400"></span>
+                FDA 21 CFR Part 11 ready
+              </li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-400"></span>
+                One-click PDF and CSV export
+              </li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-400"></span>
+                Tamper-evident audit trails
+              </li>
+</ul>
+</div>
+<!-- Feature 3: Centralised Dashboard -->
+<div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-soft hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-6">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-xl font-bold text-slate-900 mb-2">Centralised Dashboard</h3>
+<p class="text-slate-600 text-sm leading-relaxed mb-6">
+              Monitor all your devices across multiple lab locations from one easy-to-use interface.
+            </p>
+<ul class="space-y-2.5 text-xs text-slate-600 font-medium">
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                Multi-site, multi-zone support
+              </li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                Role-based access control
+              </li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
+                Mobile-ready responsive UI
+              </li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CoreCapabilitiesSection -->
+<!-- BEGIN: LabEnvironmentSection -->
+<section class="py-20 bg-white" data-purpose="lab-environments" id="target-audience">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<span class="badge-pill mb-3">Who It's For</span>
+<h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
+          Built for Every Lab Environment
+        </h2>
+<p class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base">
+          CryoVigil adapts to the unique demands of your industry.
+        </p>
+<!-- Segment Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+<!-- Environment 1: Research Labs -->
+<div class="p-8 rounded-2xl border border-slate-200/80 bg-white hover:border-brand-400 transition-colors">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-lg font-bold text-slate-900">Research Labs</h3>
+</div>
+<p class="text-xs font-semibold uppercase text-slate-400 tracking-wider mb-2">Pain Points:</p>
+<ul class="space-y-2 mb-6 text-xs text-slate-600">
+<li class="flex items-start gap-2">
+<span class="text-red-500 font-bold">✗</span>
+<span>Sample loss from undetected freezer failures</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-red-500 font-bold">✗</span>
+<span>Manual logging wastes researcher time</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-red-500 font-bold">✗</span>
+<span>Compliance audits require weeks of prep</span>
+</li>
+</ul>
+<div class="pt-4 border-t border-slate-100 text-xs text-slate-600 font-medium">
+              Protect years of irreplaceable research with autonomous monitoring that never sleeps.
             </div>
-          </div>
-          <div class="image-frame hero-image">
-            <img src="assets/img/lab_details.jpeg" alt="Laboratory equipment monitored by CryoVigil" fetchpriority="high">
-          </div>
-        </div>
-      </section>
-
-      <section class="trusted-section" aria-label="Trusted laboratories">
-        <div class="container">
-          <p class="eyebrow trusted-label">Trusted by leading laboratories worldwide</p>
-          <div class="partner-list">
-            <div class="partner-logo">
-              <svg class="partner-icon partner-icon-blue" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><circle cx="14" cy="10" r="3" fill="#fff"></circle></svg>
-              <span>Logoipsum</span>
+</div>
+<!-- Environment 2: Hospitals & Clinics -->
+<div class="p-8 rounded-2xl border border-slate-200/80 bg-white hover:border-brand-400 transition-colors">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-lg font-bold text-slate-900">Hospitals &amp; Clinics</h3>
+</div>
+<p class="text-xs font-semibold uppercase text-slate-400 tracking-wider mb-2">Pain Points:</p>
+<ul class="space-y-2 mb-6 text-xs text-slate-600">
+<li class="flex items-start gap-2">
+<span class="text-red-500 font-bold">✗</span>
+<span>Vaccine spoilage creates patient safety risk</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-red-500 font-bold">✗</span>
+<span>After-hours failures go unnoticed until morning</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-red-500 font-bold">✗</span>
+<span>Regulatory non-compliance carries heavy fines</span>
+</li>
+</ul>
+<div class="pt-4 border-t border-slate-100 text-xs text-slate-600 font-medium">
+              Ensure patient safety with 24/7 monitoring and instant emergency escalation protocols.
             </div>
-            <div class="partner-logo">
-              <svg class="partner-icon partner-icon-rose" aria-hidden="true" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10"></polygon></svg>
-              <span>Logoipsum</span>
+</div>
+<!-- Environment 3: Pharmaceutical -->
+<div class="p-8 rounded-2xl border border-slate-200/80 bg-white hover:border-brand-400 transition-colors">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-10 h-10 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-lg font-bold text-slate-900">Pharmaceutical</h3>
+</div>
+<p class="text-xs font-semibold uppercase text-slate-400 tracking-wider mb-2">Pain Points:</p>
+<ul class="space-y-2 mb-6 text-xs text-slate-600">
+<li class="flex items-start gap-2">
+<span class="text-red-500 font-bold">✗</span>
+<span>GxP compliance requires continuous records</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-red-500 font-bold">✗</span>
+<span>Multi-site cold chain traceability is complex</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="text-red-500 font-bold">✗</span>
+<span>Drug/batch losses cost millions per incident</span>
+</li>
+</ul>
+<div class="pt-4 border-t border-slate-100 text-xs text-slate-600 font-medium">
+              End-to-end cold chain visibility with tamper-evident logs built for GMP/GLP environments.
             </div>
-            <div class="partner-logo">
-              <span class="partner-bars" aria-hidden="true"><i></i><i></i><i></i></span>
-              <span class="partner-wordmark">LUYO</span>
-            </div>
-            <div class="partner-logo partner-logo-wide">
-              <svg class="partner-icon partner-icon-dark" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><line x1="12" x2="12" y1="4" y2="20"></line></svg>
-              <span>Logoipsum</span>
-            </div>
-            <div class="partner-logo">
-              <span class="partner-hexagon" aria-hidden="true">⬡</span>
-              <span>Logoipsum</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section features-section" id="features">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Key Features for Complete Control</h2>
-          </div>
-          <div class="feature-grid">
-            <article class="feature-card">
-              <div class="feature-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0 1 18 14.158V11a6.002 6.002 0 0 0-4-5.659V5a2 2 0 1 0-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 1 1-6 0v-1m6 0H9"></path></svg>
-              </div>
-              <h3>Real-time Alerts</h3>
-              <p>Get instant SMS and email notifications the second a temperature deviation occurs.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5.586a1 1 0 0 1 .707.293l5.414 5.414a1 1 0 0 1 .293.707V19a2 2 0 0 1-2 2z"></path></svg>
-              </div>
-              <h3>Compliance Reporting</h3>
-              <p>Generate audit-ready temperature logs and export historical data instantly, saving your team hours of manual recording.</p>
-            </article>
-            <article class="feature-card">
-              <div class="feature-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M4 6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6zm10 0a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V6zM4 16a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2zm10 0a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2z"></path></svg>
-              </div>
-              <h3>Centralised Dashboard</h3>
-              <p>Monitor all your refrigerators, freezers, and incubators across multiple lab locations from one easy-to-use interface.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section benefits-section" id="benefits">
-        <div class="container split-layout">
-          <div class="image-frame">
-            <img src="assets/img/dashboard_overview.jpeg" alt="Laboratory monitoring equipment" loading="lazy">
-          </div>
-          <div class="split-copy">
-            <h2>Seamless Integration with Your Lab</h2>
-            <p>Connect your existing refrigerators and freezers in minutes. Our wireless IoT sensors require no complex installation and begin syncing data to your dashboard instantly.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section compliance-section">
-        <div class="container split-layout split-layout-reversed">
-          <div class="split-copy">
-            <h2>Audit-Ready Compliance</h2>
-            <p>Never worry about compliance audits again. CryoVigil automatically generates detailed temperature logs and reports that meet strict regulatory standards.</p>
-          </div>
-          <div class="image-frame">
-            <img src="assets/img/logs-image.png" alt="Laboratory audit logs and compliance records" loading="lazy">
-          </div>
-        </div>
-      </section>
-
-      <section class="section pricing-section" id="pricing">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Simple, Transparent Pricing</h2>
-          </div>
-          <div class="pricing-grid">
-            <article class="pricing-card">
-              <div>
-                <div class="pricing-heading">
-                  <p class="eyebrow">Laboratory Monitoring</p>
-                  <h3>Standard</h3>
-                  <p class="price"><span>$299</span><span class="price-period">/mo.</span></p>
-                </div>
-                <a class="button pricing-button standard-button" href="about:blank" target="_blank" rel="noopener noreferrer">Start Free Trial</a>
-                <ul class="feature-list">
-                  <li><span class="checkmark" aria-hidden="true">✓</span>Real-time temperature tracking</li>
-                  <li><span class="checkmark" aria-hidden="true">✓</span>Automated compliance logs</li>
-                  <li><span class="checkmark" aria-hidden="true">✓</span>Multi-zone sensor calibration</li>
-                </ul>
-              </div>
-            </article>
-            <article class="pricing-card pricing-card-featured">
-              <div>
-                <div class="pricing-heading">
-                  <p class="eyebrow">Most Popular</p>
-                  <h3>Enterprise</h3>
-                  <p class="price"><span>Custom</span></p>
-                </div>
-                <a class="button pricing-button enterprise-button" href="about:blank" target="_blank" rel="noopener noreferrer">Contact Sales</a>
-                <ul class="feature-list">
-                  <li><span class="checkmark" aria-hidden="true">✓</span>Access All Standard Features</li>
-                  <li><span class="checkmark" aria-hidden="true">✓</span>24/7 Priority emergency hotline</li>
-                  <li><span class="checkmark" aria-hidden="true">✓</span>Annual calibration service</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="container callout-section" id="demo">
-        <div class="callout-banner">
-          <h2>Ready to eliminate temperature risks in your laboratory?</h2>
-          <a class="button button-primary" href="about:blank" target="_blank" rel="noopener noreferrer">Request Demo</a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer" id="contact">
-      <div class="container">
-        <div class="footer-main">
-          <div class="footer-brand-column">
-            <a class="brand" href="index.html" aria-label="CryoVigil home">
-              <img class="brand-logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZDbHHWrsFMLolebZ8N-kEjIyU6VondgmFOqOH38-kgpwB-LPUJoYWXyw6YTYCY8E-t3pZ-_ZEhkjzrBGyjSOtEtxkcgqRtfVHPeJnmdyHFl38CVzwxJoPz5F1YUhshvK9EsydNmRtV40jKrSc0sBKlicCuVgUBbahYwCNNrSGJ1bbz2QIglyYKg76fvY1U9DnTHbZzPDksuyhUyAfgQs03Yg2xCnvNHJHqLcY--c8YRyo66WyPamVpY5uMRYGn1BB" alt="">
-              <span class="brand-name">Cryo<span>Vigil</span></span>
+</div>
+</div>
+</div>
+</section>
+<!-- END: LabEnvironmentSection -->
+<!-- BEGIN: IntegrationSection -->
+<section class="py-20 bg-slate-50/50 overflow-hidden" data-purpose="integration-overview">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Dashboard Overview Image -->
+<div class="lg:col-span-6">
+  <img
+    src="assets/img/dashboard_overview.jpeg"
+    alt="Dashboard overview"
+    class="w-full max-w-[640px] rounded-2xl border border-slate-200/90 bg-white p-2 shadow-mockup"
+  />
+</div>
+<!-- Feature Description Points -->
+<div class="lg:col-span-6">
+<span class="badge-pill mb-3">Easy Setup</span>
+<h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
+              Seamless Integration with Your Lab
+            </h2>
+<p class="text-slate-600 mb-8 text-sm sm:text-base leading-relaxed">
+              Connect your existing devices in minutes. Our wireless IoT sensors require no complex installation and begin syncing data to your dashboard instantly.
+            </p>
+<div class="space-y-6 mb-8">
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-600 flex-shrink-0 flex items-center justify-center">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<div>
+<h3 class="text-base font-bold text-slate-900">Wireless IoT Sensors</h3>
+<p class="text-xs sm:text-sm text-slate-600">No wiring, no downtime — install in under 5 minutes</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-600 flex-shrink-0 flex items-center justify-center">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<div>
+<h3 class="text-base font-bold text-slate-900">Cloud-Native Platform</h3>
+<p class="text-xs sm:text-sm text-slate-600">Access your data from any device, anywhere</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-600 flex-shrink-0 flex items-center justify-center">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<div>
+<h3 class="text-base font-bold text-slate-900">API &amp; LIMS Integration</h3>
+<p class="text-xs sm:text-sm text-slate-600">Connect to your existing systems via open REST API</p>
+</div>
+</div>
+</div>
+<a class="inline-flex justify-center items-center px-6 py-3 rounded-lg bg-brand-500 text-white font-medium hover:bg-brand-600 transition-colors shadow-sm shadow-brand-500/25" href="#pricing">
+              Try It Now
             </a>
-            <p class="footer-description">Precision in every analysis.<br>Protecting the future of scientific research.</p>
-            <div class="social-links" aria-label="Social media">
-              <a href="about:blank" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg></a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231z"></path></svg></a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12z"></path></svg></a>
-            </div>
-          </div>
-          <div class="footer-links">
-            <div class="footer-link-group">
-              <h2>Product</h2>
-              <a href="#features">Features</a>
-              <a href="#pricing">Pricing</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">Sensor Hardware</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">API &amp; Integrations</a>
-            </div>
-            <div class="footer-link-group">
-              <h2>Company</h2>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">About Us</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">Lab Partners</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">Blog / Case Studies</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">Press</a>
-            </div>
-            <div class="footer-link-group">
-              <h2>Support</h2>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">Help Center</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">24/7 Emergency Line</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">Documentation</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">System Status</a>
-            </div>
-            <div class="footer-link-group">
-              <h2>Legal &amp; Compliance</h2>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">FDA 21 CFR Part 11</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">Terms of Service</a>
-              <a href="about:blank" target="_blank" rel="noopener noreferrer">Security &amp; GDPR</a>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>© 2026 CryoVigil. All rights reserved.</p>
-        </div>
-      </div>
-    </footer>
-  </body>
+</div>
+</div>
+</div>
+</section>
+<!-- END: IntegrationSection -->
+<!-- BEGIN: ComplianceSection -->
+<section class="py-20 bg-white" data-purpose="audit-compliance">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Compliance Left Info -->
+<div class="lg:col-span-6">
+<span class="badge-pill mb-3">Regulatory Confidence</span>
+<h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
+              Audit-Ready Compliance
+            </h2>
+<p class="text-slate-600 mb-8 text-sm sm:text-base leading-relaxed">
+              Never worry about compliance audits again. CryoVigil automatically generates detailed temperature logs and reports that meet strict regulatory standards including FDA 21 CFR Part 11, GMP, GLP, and ISO 17025.
+            </p>
+<ul class="space-y-4">
+<li class="flex items-center gap-3">
+<span class="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold">✓</span>
+<span class="text-sm font-semibold text-slate-800">FDA 21 CFR Part 11 electronic records</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold">✓</span>
+<span class="text-sm font-semibold text-slate-800">GMP/GLP continuous monitoring logs</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold">✓</span>
+<span class="text-sm font-semibold text-slate-800">ISO 17025 accreditation support</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-5 h-5 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs font-bold">✓</span>
+<span class="text-sm font-semibold text-slate-800">HIPAA-compliant data handling</span>
+</li>
+</ul>
+</div>
+<!-- Compliance Audit Image -->
+<div class="lg:col-span-6">
+  <img
+    src="assets/img/logs_image.png"
+    alt="Compliance audit and logs overview"
+    class="w-full max-w-[640px] rounded-xl border border-slate-200 bg-white p-2 shadow-mockup"
+  />
+</div>
+</div>
+</div>
+</section>
+<!-- END: ComplianceSection -->
+<!-- BEGIN: PricingSection -->
+<section class="py-20 bg-slate-50/50" data-purpose="pricing-plans" id="pricing">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<span class="badge-pill mb-3">Transparent Pricing</span>
+<h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
+          Simple, Transparent Pricing
+        </h2>
+<p class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base">
+          No hidden fees. Scale as your lab grows.
+        </p>
+<!-- Pricing Cards Container -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left">
+<!-- Standard Plan -->
+<div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-soft flex flex-col justify-between">
+<div>
+<div class="text-center pb-6 border-b border-slate-100">
+<span class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Laboratory Monitoring</span>
+<h3 class="text-2xl font-bold text-slate-900 mt-1 mb-4">Standard</h3>
+<div class="flex items-baseline justify-center gap-1">
+<span class="text-4xl font-extrabold text-slate-900">$299</span>
+<span class="text-sm font-semibold text-slate-500">/mo</span>
+</div>
+<p class="text-xs text-slate-500 mt-2">Up to 10 sensors, 1 location</p>
+</div>
+<!-- Feature checklist -->
+<ul class="space-y-3.5 my-8 text-xs sm:text-sm text-slate-700">
+<li class="flex items-center gap-3">
+<span class="text-emerald-500 font-bold">✓</span>
+<span>Real-time temperature tracking</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-emerald-500 font-bold">✓</span>
+<span>Automated compliance logs</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-emerald-500 font-bold">✓</span>
+<span>Multi-zone sensor calibration</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-emerald-500 font-bold">✓</span>
+<span>Email &amp; SMS alerts</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-emerald-500 font-bold">✓</span>
+<span>7-year data retention</span>
+</li>
+</ul>
+</div>
+<button class="w-full py-3.5 rounded-lg bg-navy-900 hover:bg-slate-800 text-white font-medium text-sm transition-colors shadow-sm">
+              Start Free Trial
+            </button>
+</div>
+<!-- Enterprise Plan -->
+<div class="bg-navy-900 text-white p-8 rounded-2xl border border-navy-800 shadow-xl flex flex-col justify-between relative overflow-hidden">
+<!-- Badge -->
+<div class="absolute top-4 right-4">
+<span class="px-3 py-1 rounded-full text-[10px] font-bold bg-brand-500/20 text-brand-300 border border-brand-500/30 tracking-wider uppercase">
+                Most Popular
+              </span>
+</div>
+<div>
+<div class="text-center pb-6 border-b border-navy-800">
+<span class="text-xs font-semibold text-brand-400 uppercase tracking-wider">Multi-site Enterprise</span>
+<h3 class="text-2xl font-bold mt-1 mb-4">Enterprise</h3>
+<div class="flex items-baseline justify-center">
+<span class="text-4xl font-extrabold text-white">Custom</span>
+</div>
+<p class="text-xs text-slate-400 mt-2">Unlimited sensors, unlimited locations</p>
+</div>
+<!-- Feature checklist -->
+<ul class="space-y-3.5 my-8 text-xs sm:text-sm text-slate-300">
+<li class="flex items-center gap-3">
+<span class="text-brand-400 font-bold">✓</span>
+<span>All Standard features included</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-brand-400 font-bold">✓</span>
+<span>24/7 priority emergency hotline</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-brand-400 font-bold">✓</span>
+<span>Annual calibration service</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-brand-400 font-bold">✓</span>
+<span>Dedicated customer success manager</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="text-brand-400 font-bold">✓</span>
+<span>Custom API &amp; LIMS integrations</span>
+</li>
+</ul>
+</div>
+<button class="w-full py-3.5 rounded-lg bg-brand-500 hover:bg-brand-600 text-white font-medium text-sm transition-colors shadow-sm shadow-brand-500/30">
+              Contact Sales
+            </button>
+</div>
+</div>
+</div>
+</section>
+<!-- END: PricingSection -->
+<!-- BEGIN: VideoSection -->
+<section class="py-20 bg-white" data-purpose="video-demonstrations" id="videos">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<span class="badge-pill mb-3">See It In Action</span>
+<h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
+          Watch and Learn
+        </h2>
+<p class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base">
+          Get a closer look at CryoVigil and the people behind it.
+        </p>
+<!-- Video Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+<!-- Video Card 1 -->
+<div class="relative group rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 aspect-video shadow-lg flex items-center justify-center">
+<!-- Simulated Video Thumbnail Backing -->
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-transparent"></div>
+<!-- Background Lab Elements Mock -->
+<div class="absolute inset-0 flex items-center justify-center opacity-30">
+<svg class="w-full h-full text-slate-600" preserveaspectratio="none" viewbox="0 0 100 100">
+<path d="M0 0 L100 100 M100 0 L0 100" stroke="currentColor" stroke-width="0.5"></path>
+</svg>
+</div>
+<!-- Play Button YouTube Style -->
+<div class="relative z-10 flex flex-col items-center gap-2 cursor-pointer transition-transform group-hover:scale-110">
+<div class="w-16 h-12 rounded-xl bg-red-600 flex items-center justify-center text-white shadow-lg shadow-red-600/40">
+<svg class="w-6 h-6 fill-current ml-0.5" viewbox="0 0 24 24">
+<path d="M8 5v14l11-7z"></path>
+</svg>
+</div>
+<span class="text-white text-xs font-semibold drop-shadow">Platform Walkthrough</span>
+</div>
+</div>
+<!-- Video Card 2 -->
+<div class="relative group rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 aspect-video shadow-lg flex items-center justify-center">
+<!-- Simulated Video Thumbnail Backing -->
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-transparent"></div>
+<!-- Background Lab Elements Mock -->
+<div class="absolute inset-0 flex items-center justify-center opacity-30">
+<svg class="w-full h-full text-slate-600" preserveaspectratio="none" viewbox="0 0 100 100">
+<circle cx="50" cy="50" fill="none" r="40" stroke="currentColor" stroke-width="0.5"></circle>
+</svg>
+</div>
+<!-- Play Button YouTube Style -->
+<div class="relative z-10 flex flex-col items-center gap-2 cursor-pointer transition-transform group-hover:scale-110">
+<div class="w-16 h-12 rounded-xl bg-red-600 flex items-center justify-center text-white shadow-lg shadow-red-600/40">
+<svg class="w-6 h-6 fill-current ml-0.5" viewbox="0 0 24 24">
+<path d="M8 5v14l11-7z"></path>
+</svg>
+</div>
+<span class="text-white text-xs font-semibold drop-shadow">Behind The Architecture</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: VideoSection -->
+<!-- BEGIN: TeamSection -->
+<section class="py-20 bg-slate-50/50" data-purpose="team-members" id="about-us">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<span class="badge-pill mb-3">The People</span>
+<h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
+          Meet Our Team
+        </h2>
+<p class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base">
+          A multidisciplinary team of scientists, engineers, and product experts united by one mission.
+        </p>
+<!-- Team Members Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 text-center">
+<!-- Team Member 1 -->
+<div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft">
+<div class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover" src="assets/img/member1.png" alt="Jean Niels Arizabal Condori" />
+</div>
+<h3 class="text-sm font-bold text-slate-900 leading-tight">Arizabal Condori,</h3>
+<p class="text-xs font-bold text-slate-900 mb-2">Jean Niels</p>
+<p class="text-[11px] text-slate-500 leading-relaxed">
+              Software Engineering student focused on low-level programming, with a strong emphasis on systems programming and embedded systems.
+            </p>
+</div>
+<!-- Team Member 2 -->
+<div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft">
+<div class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover" src="assets/img/member2.jpeg" alt="Tomas Homola" />
+</div>
+<h3 class="text-sm font-bold text-slate-900 leading-tight">Homola,</h3>
+<p class="text-xs font-bold text-slate-900 mb-2">Tomas</p>
+<p class="text-[11px] text-slate-500 leading-relaxed">
+              Exchange student specializing in AI-driven image recognition, requirements management, and UI design.
+            </p>
+</div>
+<!-- Team Member 3 -->
+<div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft">
+<div class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover" src="assets/img/member3.jpg" alt="Franco Orlando Linares Rodriguez" />
+</div>
+<h3 class="text-sm font-bold text-slate-900 leading-tight">Linares Rodriguez,</h3>
+<p class="text-xs font-bold text-slate-900 mb-2">Franco Orlando</p>
+<p class="text-[11px] text-slate-500 leading-relaxed">
+              Passionate Software Engineering student skilled in C++, web development, and SQL database management.
+            </p>
+</div>
+<!-- Team Member 4 -->
+<div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft">
+<div class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover" src="assets/img/member4.jpeg" alt="Mauricio Jared Padilla Merino" />
+</div>
+<h3 class="text-sm font-bold text-slate-900 leading-tight">Padilla Merino,</h3>
+<p class="text-xs font-bold text-slate-900 mb-2">Mauricio Jared</p>
+<p class="text-[11px] text-slate-500 leading-relaxed">
+              Adaptable team leader focused on project scope organization and efficient task delegation.
+            </p>
+</div>
+<!-- Team Member 5 -->
+<div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft">
+<div class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover" src="assets/img/member5.jpeg" alt="Joaquin Leonardo Reyes Munoz" />
+</div>
+<h3 class="text-sm font-bold text-slate-900 leading-tight">Reyes Munoz,</h3>
+<p class="text-xs font-bold text-slate-900 mb-2">Joaquin Leonardo</p>
+<p class="text-[11px] text-slate-500 leading-relaxed">
+              Patient and dedicated developer driven by continuous learning, problem-solving, and collaborative teamwork.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: TeamSection -->
+<!-- BEGIN: TestimonialsSection -->
+<section class="py-20 bg-white" data-purpose="social-proof-testimonials">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<span class="badge-pill mb-3">Social Proof</span>
+<h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-16">
+          What Our Customers Say
+        </h2>
+<!-- Testimonial Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+<!-- Card 1 -->
+<div class="p-8 rounded-2xl border border-slate-200 bg-white shadow-soft flex flex-col justify-between">
+<div>
+<div class="flex text-amber-400 mb-4">
+<span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+</div>
+<p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-6">
+                "CryoVigil saved us from a catastrophic sample loss during a long weekend power outage. The SMS alert reached our on-call staff within 30 seconds. Absolutely essential."
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+<div class="w-10 h-10 rounded-full bg-slate-200 flex-shrink-0 flex items-center justify-center font-bold text-slate-500 text-xs">
+                CM
+              </div>
+<div>
+<h4 class="text-xs font-bold text-slate-900">Dr. Claire Morton</h4>
+<p class="text-[11px] text-slate-500">Head of Biobanking, St. Mary's Research Institute</p>
+</div>
+</div>
+</div>
+<!-- Card 2 (Navy Highlighted) -->
+<div class="p-8 rounded-2xl border border-navy-800 bg-navy-900 text-white shadow-soft flex flex-col justify-between">
+<div>
+<div class="flex text-amber-400 mb-4">
+<span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+</div>
+<p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
+                "Our FDA inspection went smoothly for the first time in years. The auditor was impressed with how complete and tamper-evident our temperature records were. CryoVigil made it effortless."
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-navy-800">
+<div class="w-10 h-10 rounded-full bg-slate-700 flex-shrink-0 flex items-center justify-center font-bold text-brand-400 text-xs">
+                RT
+              </div>
+<div>
+<h4 class="text-xs font-bold text-white">Robert Tanaka</h4>
+<p class="text-[11px] text-slate-400">VP Quality Assurance, NovaBio Pharma</p>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="p-8 rounded-2xl border border-slate-200 bg-white shadow-soft flex flex-col justify-between">
+<div>
+<div class="flex text-amber-400 mb-4">
+<span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+</div>
+<p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-6">
+                "We manage 14 hospital sites. Before CryoVigil, we had zero visibility into after-hours events. Now we have complete peace of mind and the compliance data to prove it."
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+<div class="w-10 h-10 rounded-full bg-slate-200 flex-shrink-0 flex items-center justify-center font-bold text-slate-500 text-xs">
+                MS
+              </div>
+<div>
+<h4 class="text-xs font-bold text-slate-900">Maria Santos</h4>
+<p class="text-[11px] text-slate-500">Lab Director, HealthFirst Hospital Network</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: TestimonialsSection -->
+<!-- BEGIN: FinalCTASection -->
+<section class="py-20 bg-navy-900 text-white" data-purpose="final-call-to-action">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-6">
+          Ready to eliminate temperature risks in your laboratory?
+        </h2>
+<p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+          Join 500+ labs already protecting their assets with CryoVigil. Start your free trial today — no credit card required.
+        </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a class="inline-flex justify-center items-center px-8 py-3.5 rounded-lg bg-brand-500 text-white font-semibold hover:bg-brand-600 transition-colors shadow-lg shadow-brand-500/25" href="#pricing">
+            Try It Now
+          </a>
+<a class="inline-flex justify-center items-center px-8 py-3.5 rounded-lg bg-slate-800 text-slate-200 font-semibold hover:bg-slate-700 transition-colors border border-slate-700" href="#features">
+            View Features
+          </a>
+</div>
+</div>
+</section>
+<!-- END: FinalCTASection -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="bg-white border-t border-slate-100 pt-16 pb-12" data-purpose="page-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Top Columns -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 pb-12">
+<!-- Brand Info Column -->
+<div class="lg:col-span-2 space-y-4">
+<a class="flex items-center gap-2" href="about:blank" target="_blank" rel="noopener noreferrer">
+<div class="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center text-white">
+<svg class="w-4 h-4 stroke-current fill-none stroke-[2.2]" viewbox="0 0 24 24">
+<path d="M12 2v20m0-20l4 4m-4-4L8 6m4 16l4-4m-4 4l-4-4m-8-6h20m-20 0l4-4m-4 4l4 4m16-4l-4-4m4 4l-4 4" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<span class="text-xl font-bold tracking-tight text-slate-900">CryoVigil</span>
+</a>
+<p class="text-xs text-slate-500 max-w-sm leading-relaxed">
+            Precision in every analysis. Protecting the future of scientific research through intelligent cold-chain monitoring.
+          </p>
+<!-- Social Icons -->
+<div class="flex items-center gap-3 pt-2 text-slate-400">
+<a aria-label="Twitter" class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center hover:text-brand-500 hover:border-brand-500 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">
+<svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path></svg>
+</a>
+<a aria-label="LinkedIn" class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center hover:text-brand-500 hover:border-brand-500 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">
+<svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path><circle cx="4" cy="4" r="2"></circle></svg>
+</a>
+<a aria-label="Website" class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center hover:text-brand-500 hover:border-brand-500 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"></path></svg>
+</a>
+<a aria-label="GitHub" class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center hover:text-brand-500 hover:border-brand-500 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">
+<svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path></svg>
+</a>
+</div>
+</div>
+<!-- Links: Product -->
+<div>
+<h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4">Product</h4>
+<ul class="space-y-2.5 text-xs text-slate-500">
+<li><a class="hover:text-slate-900 transition-colors" href="#features">Features</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="#pricing">Pricing</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Integrations</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Changelog</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Roadmap</a></li>
+</ul>
+</div>
+<!-- Links: Company -->
+<div>
+<h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4">Company</h4>
+<ul class="space-y-2.5 text-xs text-slate-500">
+<li><a class="hover:text-slate-900 transition-colors" href="#about-us">About Us</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="#about-us">Our Team</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Blog</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Careers</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Press Kit</a></li>
+</ul>
+</div>
+<!-- Links: Support -->
+<div>
+<h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4">Support</h4>
+<ul class="space-y-2.5 text-xs text-slate-500">
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Help Center</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Documentation</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">API Reference</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">System Status</a></li>
+</ul>
+</div>
+<!-- Links: Legal & Ethics -->
+<div>
+<h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4">Legal &amp; Ethics</h4>
+<ul class="space-y-2.5 text-xs text-slate-500">
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Terms and Conditions</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Cookie Policy</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">HIPAA Compliance</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">ACM/IEEE Code of Ethics</a></li>
+<li><a class="hover:text-slate-900 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">CIP Ethics Statement</a></li>
+</ul>
+</div>
+</div>
+<!-- Ethics & Responsibility Statement Box -->
+<div class="p-4 rounded-xl bg-brand-50/60 border border-brand-100 mb-8">
+<h5 class="text-xs font-bold text-brand-900 mb-1">Ethics &amp; Responsibility Statement</h5>
+<p class="text-[11px] text-brand-800/80 leading-relaxed">
+          CryoVigil is committed to responsible technology development in accordance with the ACM Code of Ethics, IEEE Code of Ethics, and CIP (Critical Infrastructure Protection) principles. Our platform is designed to support scientific integrity, patient safety, and environmental stewardship. We do not sell user data, comply fully with GDPR and HIPAA, and conduct annual third-party security audits.
+        </p>
+</div>
+<!-- Bottom Bar -->
+<div class="pt-6 border-t border-slate-100 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+<p>© 2026 CryoVigil Technologies, Inc. All rights reserved.</p>
+<div class="flex items-center gap-6">
+<a class="hover:text-slate-600 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+<a class="hover:text-slate-600 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+<a class="hover:text-slate-600 transition-colors" href="about:blank" target="_blank" rel="noopener noreferrer">Contact: hello@cryovigil.com</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- Simple Vanilla Interactions -->
+</body>
 </html>
