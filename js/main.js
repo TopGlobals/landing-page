@@ -5,12 +5,20 @@ if (mobileMenuButton && mobileMenu) {
   const closeMobileMenu = () => {
     mobileMenu.classList.add("hidden");
     mobileMenuButton.setAttribute("aria-expanded", "false");
+    mobileMenuButton.setAttribute("aria-label", "Open navigation");
   };
 
   mobileMenuButton.addEventListener("click", () => {
     const isExpanded = mobileMenuButton.getAttribute("aria-expanded") === "true";
     mobileMenuButton.setAttribute("aria-expanded", String(!isExpanded));
+    mobileMenuButton.setAttribute("aria-label", isExpanded ? "Open navigation" : "Close navigation");
     mobileMenu.classList.toggle("hidden", isExpanded);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeMobileMenu();
+    }
   });
 
   mobileMenu.querySelectorAll("a").forEach((link) => {
