@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Automated platform to prevent the loss of reagents and vaccines in real time. Trusted by 500+ laboratories worldwide.">
   <title>CryoVigil | Smart Monitoring for Safe Laboratories</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=mobile-carousel-2">
   <script src="js/main.js" defer></script>
 </head>
 <body class="flex flex-col min-h-screen text-slate-800">
@@ -33,9 +33,9 @@
 <button aria-pressed="false" class="language-option" data-language="es" type="button">ES</button>
 </div>
 <!-- Mobile Menu Trigger -->
-<button aria-label="Toggle Navigation" aria-controls="mobile-menu" aria-expanded="false" class="md:hidden p-2 text-slate-600 hover:text-slate-900 focus:outline-none" id="mobile-menu-btn" type="button">
+<button aria-label="Open navigation" aria-controls="mobile-menu" aria-expanded="false" class="md:hidden p-2 text-slate-600 hover:text-slate-900 focus:outline-none" id="mobile-menu-btn" type="button">
 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
 </svg>
 </button>
 </div>
@@ -120,17 +120,18 @@
 </section>
 <!-- END: HeroSection -->
 <!-- BEGIN: CoreCapabilitiesSection -->
-<section class="py-20 bg-slate-50/50" data-purpose="core-capabilities" id="features">
+<section class="py-20 bg-slate-50/50 mobile-carousel-section" data-purpose="core-capabilities" id="features">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 <span class="badge-pill mb-3">Core Capabilities</span>
 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
           Key Features for Complete Control
         </h2>
-<p class="text-slate-600 max-w-2xl mx-auto mb-16 text-sm sm:text-base">
+<p class="text-slate-600 max-w-2xl mx-auto mb-16 text-sm sm:text-base mobile-section-intro">
           Everything you need to protect your lab assets and maintain regulatory compliance.
         </p>
+<p class="mobile-swipe-hint">Swipe to explore <span aria-hidden="true">→</span></p>
 <!-- Feature Cards -->
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+<div aria-label="Key features" class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mobile-carousel" role="region" tabindex="0">
 <!-- Feature 1: Real-time Alerts -->
 <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-soft hover:shadow-md transition-shadow">
 <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-6">
@@ -214,17 +215,18 @@
 </section>
 <!-- END: CoreCapabilitiesSection -->
 <!-- BEGIN: LabEnvironmentSection -->
-<section class="py-20 bg-white" data-purpose="lab-environments" id="target-audience">
+<section class="py-20 bg-white mobile-carousel-section" data-purpose="lab-environments" id="target-audience">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 <span class="badge-pill mb-3">Who It's For</span>
 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
           Built for Every Lab Environment
         </h2>
-<p class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base">
+<p class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base mobile-section-intro">
           CryoVigil adapts to the unique demands of your industry.
         </p>
+<p class="mobile-swipe-hint">Swipe to explore <span aria-hidden="true">→</span></p>
 <!-- Segment Cards -->
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+<div aria-label="Laboratory types" class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mobile-carousel" role="region" tabindex="0">
 <!-- Environment 1: Research Labs -->
 <div class="p-8 rounded-2xl border border-slate-200/80 bg-white hover:border-brand-400 transition-colors">
 <div class="flex items-center gap-3 mb-6">
@@ -425,17 +427,18 @@
 </section>
 <!-- END: ComplianceSection -->
 <!-- BEGIN: PricingSection -->
-<section class="py-20 bg-slate-50/50" data-purpose="pricing-plans" id="pricing">
+<section class="py-20 bg-slate-50/50 mobile-carousel-section" data-purpose="pricing-plans" id="pricing">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 <span class="badge-pill mb-3">Transparent Pricing</span>
 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
           Simple, Transparent Pricing
         </h2>
-<p class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base">
+<p class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base mobile-section-intro">
           No hidden fees. Scale as your lab grows.
         </p>
+<p class="mobile-swipe-hint">Swipe to compare plans <span aria-hidden="true">→</span></p>
 <!-- Pricing Cards Container -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left">
+<div aria-label="Pricing plans" class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left mobile-carousel" role="region" tabindex="0">
 <!-- Standard Plan -->
 <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-soft flex flex-col justify-between">
 <div>
@@ -582,17 +585,18 @@
 </section>
 <!-- END: VideoSection -->
 <!-- BEGIN: TeamSection -->
-<section class="py-20 bg-slate-50/50" data-purpose="team-members" id="about-us">
+<section class="py-20 bg-slate-50/50 mobile-carousel-section" data-purpose="team-members" id="about-us">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 <span class="badge-pill mb-3">The People</span>
 <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4">
           Meet Our Team
         </h2>
-<p class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base">
+<p class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base mobile-section-intro">
           A multidisciplinary team of scientists, engineers, and product experts united by one mission.
         </p>
+<p class="mobile-swipe-hint">Swipe to meet the team <span aria-hidden="true">→</span></p>
 <!-- Team Members Grid -->
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 text-center">
+<div aria-label="Team members" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 text-center mobile-carousel" role="region" tabindex="0">
 <!-- Team Member 1 -->
 <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft">
 <div class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center">
@@ -653,14 +657,15 @@
 </section>
 <!-- END: TeamSection -->
 <!-- BEGIN: TestimonialsSection -->
-<section class="py-20 bg-white" data-purpose="social-proof-testimonials">
+<section class="py-20 bg-white mobile-carousel-section" data-purpose="social-proof-testimonials">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 <span class="badge-pill mb-3">Social Proof</span>
-<h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-16">
+<h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-16 mobile-review-heading">
           What Our Customers Say
         </h2>
+<p class="mobile-swipe-hint">Swipe to read reviews <span aria-hidden="true">→</span></p>
 <!-- Testimonial Cards -->
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+<div aria-label="Customer reviews" class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mobile-carousel" role="region" tabindex="0">
 <!-- Card 1 -->
 <div class="p-8 rounded-2xl border border-slate-200 bg-white shadow-soft flex flex-col justify-between">
 <div>
