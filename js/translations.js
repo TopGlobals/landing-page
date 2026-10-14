@@ -1,7 +1,10 @@
 const translations = {
-  en: {
+  en_US: {
     meta_title: "CryoVigil | Smart Monitoring for Safe Laboratories",
-    meta_description: "Automated platform to prevent the loss of reagents and vaccines in real time. Trusted by 500+ laboratories worldwide.",
+    meta_description:
+      "Automated platform to prevent the loss of reagents and vaccines in real time. Trusted by 500+ laboratories worldwide.",
+    meta_keywords:
+      "laboratory monitoring, cold chain monitoring, vaccine storage, reagent monitoring, temperature alerts, laboratory compliance",
 
     // Header & Navigation
     nav_logo_aria: "CryoVigil Home",
@@ -10,6 +13,9 @@ const translations = {
     nav_videos: "Videos",
     nav_pricing: "Pricing",
     nav_about_us: "About Us",
+    nav_contact: "Contact",
+    nav_sign_in: "Sign In",
+    nav_sign_up: "Sign Up",
     nav_lang_aria: "Choose language",
     nav_mobile_btn_open: "Open navigation",
     nav_mobile_btn_close: "Close navigation",
@@ -17,8 +23,11 @@ const translations = {
     // Hero Section
     hero_badge: "IoT-Powered Laboratory Monitoring",
     hero_title: "Smart Monitoring for Safe Laboratories",
-    hero_description: "Automated platform to prevent the loss of reagents and vaccines in real time. Trusted by 500+ labs worldwide.",
-    hero_cta_explore: "Explore Solutions",
+    hero_description:
+      "Automated platform to prevent the loss of reagents and vaccines in real time. Trusted by 500+ labs worldwide.",
+    hero_cta_explore: "Get Started",
+    hero_cta_provider: "Register as Provider",
+    hero_cta_signin: "Sign In",
     hero_cta_features: "View Features",
     hero_img_alt: "Laboratory monitoring dashboard",
     hero_trusted: "Trusted by leading laboratories worldwide",
@@ -26,20 +35,24 @@ const translations = {
     // Features Section
     features_badge: "Core Capabilities",
     features_title: "Key Features for Complete Control",
-    features_subtitle: "Everything you need to protect your lab assets and maintain regulatory compliance.",
+    features_subtitle:
+      "Everything you need to protect your lab assets and maintain regulatory compliance.",
     features_swipe: 'Swipe to explore <span aria-hidden="true">→</span>',
     features_card1_title: "Real-time Alerts",
-    features_card1_desc: "Get instant SMS and email notifications the second a temperature deviation occurs.",
+    features_card1_desc:
+      "Get instant SMS and email notifications the second a temperature deviation occurs.",
     features_card1_item1: "SMS + email + push alerts",
     features_card1_item2: "Configurable thresholds per sensor",
     features_card1_item3: "Escalation chains and on-call scheduling",
     features_card2_title: "Compliance Reporting",
-    features_card2_desc: "Generate audit-ready logs and export historical data, saving your team hours of manual recording.",
+    features_card2_desc:
+      "Generate audit-ready logs and export historical data, saving your team hours of manual recording.",
     features_card2_item1: "FDA 21 CFR Part 11 ready",
     features_card2_item2: "One-click PDF and CSV export",
     features_card2_item3: "Tamper-evident audit trails",
     features_card3_title: "Centralised Dashboard",
-    features_card3_desc: "Monitor all your devices across multiple lab locations from one easy-to-use interface.",
+    features_card3_desc:
+      "Monitor all your devices across multiple lab locations from one easy-to-use interface.",
     features_card3_item1: "Multi-site, multi-zone support",
     features_card3_item2: "Role-based access control",
     features_card3_item3: "Mobile-ready responsive UI",
@@ -47,44 +60,52 @@ const translations = {
     // Lab Environments / Target Audience Section
     audience_badge: "Who It's For",
     audience_title: "Built for Every Lab Environment",
-    audience_subtitle: "CryoVigil adapts to the unique demands of your industry.",
+    audience_subtitle:
+      "CryoVigil adapts to the unique demands of your industry.",
     audience_swipe: 'Swipe to explore <span aria-hidden="true">→</span>',
     audience_card1_title: "Research Labs",
     audience_card1_pain_label: "Pain Points:",
     audience_card1_pain1: "Sample loss from undetected freezer failures",
     audience_card1_pain2: "Manual logging wastes researcher time",
     audience_card1_pain3: "Compliance audits require weeks of prep",
-    audience_card1_footer: "Protect years of irreplaceable research with autonomous monitoring that never sleeps.",
+    audience_card1_footer:
+      "Protect years of irreplaceable research with autonomous monitoring that never sleeps.",
     audience_card2_title: "Hospitals & Clinics",
     audience_card2_pain_label: "Pain Points:",
     audience_card2_pain1: "Vaccine spoilage creates patient safety risk",
     audience_card2_pain2: "After-hours failures go unnoticed until morning",
     audience_card2_pain3: "Regulatory non-compliance carries heavy fines",
-    audience_card2_footer: "Ensure patient safety with 24/7 monitoring and instant emergency escalation protocols.",
+    audience_card2_footer:
+      "Ensure patient safety with 24/7 monitoring and instant emergency escalation protocols.",
     audience_card3_title: "Pharmaceutical",
     audience_card3_pain_label: "Pain Points:",
     audience_card3_pain1: "GxP compliance requires continuous records",
     audience_card3_pain2: "Multi-site cold chain traceability is complex",
     audience_card3_pain3: "Drug/batch losses cost millions per incident",
-    audience_card3_footer: "End-to-end cold chain visibility with tamper-evident logs built for GMP/GLP environments.",
+    audience_card3_footer:
+      "End-to-end cold chain visibility with tamper-evident logs built for GMP/GLP environments.",
 
     // Integration Section
     integration_img_alt: "Dashboard overview",
     integration_badge: "Easy Setup",
     integration_title: "Seamless Integration with Your Lab",
-    integration_description: "Connect your existing devices in minutes. Our wireless IoT sensors require no complex installation and begin syncing data to your dashboard instantly.",
+    integration_description:
+      "Connect your existing devices in minutes. Our wireless IoT sensors require no complex installation and begin syncing data to your dashboard instantly.",
     integration_item1_title: "Wireless IoT Sensors",
-    integration_item1_desc: "No wiring, no downtime — install in under 5 minutes",
+    integration_item1_desc:
+      "No wiring, no downtime — install in under 5 minutes",
     integration_item2_title: "Cloud-Native Platform",
     integration_item2_desc: "Access your data from any device, anywhere",
     integration_item3_title: "API & LIMS Integration",
-    integration_item3_desc: "Connect to your existing systems via open REST API",
+    integration_item3_desc:
+      "Connect to your existing systems via open REST API",
     integration_cta: "Try It Now",
 
     // Compliance Section
     compliance_badge: "Regulatory Confidence",
     compliance_title: "Audit-Ready Compliance",
-    compliance_description: "Never worry about compliance audits again. CryoVigil automatically generates detailed temperature logs and reports that meet strict regulatory standards including FDA 21 CFR Part 11, GMP, GLP, and ISO 17025.",
+    compliance_description:
+      "Never worry about compliance audits again. CryoVigil automatically generates detailed temperature logs and reports that meet strict regulatory standards including FDA 21 CFR Part 11, GMP, GLP, and ISO 17025.",
     compliance_item1: "FDA 21 CFR Part 11 electronic records",
     compliance_item2: "GMP/GLP continuous monitoring logs",
     compliance_item3: "ISO 17025 accreditation support",
@@ -124,52 +145,68 @@ const translations = {
     videos_badge: "See It In Action",
     videos_title: "Watch and Learn",
     videos_subtitle: "Get a closer look at CryoVigil and the people behind it.",
-    videos_card1_title: "Platform Walkthrough",
-    videos_card2_title: "Behind The Architecture",
+    videos_card1_title: "About the Product",
+    videos_card2_title: "About the Team",
+    video_product_aria: "CryoVigil product video player",
+    video_team_aria: "CryoVigil team video player",
+    videos_unavailable: "Video coming soon. A recording will be added here.",
 
     // Team Section
     team_badge: "The People",
     team_title: "Meet Our Team",
-    team_subtitle: "A multidisciplinary team of scientists, engineers, and product experts united by one mission.",
+    team_subtitle:
+      "A multidisciplinary team of scientists, engineers, and product experts united by one mission.",
     team_swipe: 'Swipe to meet the team <span aria-hidden="true">→</span>',
     team_member1_name: "Arizabal Condori,",
     team_member1_first: "Jean Niels",
-    team_member1_desc: "Software Engineering student focused on low-level programming, with a strong emphasis on systems programming and embedded systems.",
+    team_member1_desc:
+      "Software Engineering student focused on low-level programming, with a strong emphasis on systems programming and embedded systems.",
     team_member2_name: "Homola,",
     team_member2_first: "Tomas",
-    team_member2_desc: "Exchange student specializing in AI-driven image recognition, requirements management, and UI design.",
+    team_member2_desc:
+      "Exchange student specializing in AI-driven image recognition, requirements management, and UI design.",
     team_member3_name: "Linares Rodriguez,",
     team_member3_first: "Franco Orlando",
-    team_member3_desc: "Passionate Software Engineering student skilled in C++, web development, and SQL database management.",
+    team_member3_desc:
+      "Passionate Software Engineering student skilled in C++, web development, and SQL database management.",
     team_member4_name: "Padilla Merino,",
     team_member4_first: "Mauricio Jared",
-    team_member4_desc: "Adaptable team leader focused on project scope organization and efficient task delegation.",
+    team_member4_desc:
+      "Adaptable team leader focused on project scope organization and efficient task delegation.",
     team_member5_name: "Reyes Munoz,",
     team_member5_first: "Joaquin Leonardo",
-    team_member5_desc: "Patient and dedicated developer driven by continuous learning, problem-solving, and collaborative teamwork.",
+    team_member5_desc:
+      "Patient and dedicated developer driven by continuous learning, problem-solving, and collaborative teamwork.",
 
     // Testimonials Section
     testimonials_badge: "Social Proof",
     testimonials_title: "What Our Customers Say",
-    testimonials_swipe: 'Swipe to read reviews <span aria-hidden="true">→</span>',
-    testimonials_card1_quote: '"CryoVigil saved us from a catastrophic sample loss during a long weekend power outage. The SMS alert reached our on-call staff within 30 seconds. Absolutely essential."',
+    testimonials_swipe:
+      'Swipe to read reviews <span aria-hidden="true">→</span>',
+    testimonials_card1_quote:
+      '"CryoVigil saved us from a catastrophic sample loss during a long weekend power outage. The SMS alert reached our on-call staff within 30 seconds. Absolutely essential."',
     testimonials_card1_name: "Dr. Claire Morton",
-    testimonials_card1_role: "Head of Biobanking, St. Mary's Research Institute",
-    testimonials_card2_quote: '"Our FDA inspection went smoothly for the first time in years. The auditor was impressed with how complete and tamper-evident our temperature records were. CryoVigil made it effortless."',
+    testimonials_card1_role:
+      "Head of Biobanking, St. Mary's Research Institute",
+    testimonials_card2_quote:
+      '"Our FDA inspection went smoothly for the first time in years. The auditor was impressed with how complete and tamper-evident our temperature records were. CryoVigil made it effortless."',
     testimonials_card2_name: "Robert Tanaka",
     testimonials_card2_role: "VP Quality Assurance, NovaBio Pharma",
-    testimonials_card3_quote: '"We manage 14 hospital sites. Before CryoVigil, we had zero visibility into after-hours events. Now we have complete peace of mind and the compliance data to prove it."',
+    testimonials_card3_quote:
+      '"We manage 14 hospital sites. Before CryoVigil, we had zero visibility into after-hours events. Now we have complete peace of mind and the compliance data to prove it."',
     testimonials_card3_name: "Maria Santos",
     testimonials_card3_role: "Lab Director, HealthFirst Hospital Network",
 
     // Final CTA Section
     final_title: "Ready to eliminate temperature risks in your laboratory?",
-    final_desc: "Join 500+ labs already protecting their assets with CryoVigil. Start your free trial today — no credit card required.",
-    final_cta_trial: "Try It Now",
+    final_desc:
+      "Join 500+ labs already protecting their assets with CryoVigil. Start your free trial today — no credit card required.",
+    final_cta_trial: "Get Started",
     final_cta_features: "View Features",
 
     // Footer
-    footer_tagline: "Precision in every analysis. Protecting the future of scientific research through intelligent cold-chain monitoring.",
+    footer_tagline:
+      "Precision in every analysis. Protecting the future of scientific research through intelligent cold-chain monitoring.",
     footer_col_product: "Product",
     footer_col_company: "Company",
     footer_col_support: "Support",
@@ -201,17 +238,21 @@ const translations = {
     footer_link_cip: "CIP Ethics Statement",
 
     footer_ethics_title: "Ethics & Responsibility Statement",
-    footer_ethics_desc: "CryoVigil is committed to responsible technology development in accordance with the ACM Code of Ethics, IEEE Code of Ethics, and CIP (Critical Infrastructure Protection) principles. Our platform is designed to support scientific integrity, patient safety, and environmental stewardship. We do not sell user data, comply fully with GDPR and HIPAA, and conduct annual third-party security audits.",
+    footer_ethics_desc:
+      "CryoVigil is committed to responsible technology development in accordance with the ACM Code of Ethics, IEEE Code of Ethics, and CIP (Critical Infrastructure Protection) principles. Our platform is designed to support scientific integrity, patient safety, and environmental stewardship. We do not sell user data, comply fully with GDPR and HIPAA, and conduct annual third-party security audits.",
 
-    footer_copyright: "© 2026 CryoVigil Technologies, Inc. All rights reserved.",
+    footer_copyright:
+      "© 2026 CryoVigil Technologies, Inc. All rights reserved.",
     footer_bottom_terms: "Terms of Service",
-    footer_bottom_privacy: "Privacy Policy",
-    footer_bottom_contact: "Contact: hello@cryovigil.com"
+    footer_bottom_contact: "Contact: hello@cryovigil.com",
   },
 
-  es: {
+  es_419: {
     meta_title: "CryoVigil | Monitoreo Inteligente para Laboratorios Seguros",
-    meta_description: "Plataforma automatizada para prevenir la pérdida de reactivos y vacunas en tiempo real. Respaldada por más de 500 laboratorios en todo el mundo.",
+    meta_description:
+      "Plataforma automatizada para prevenir la pérdida de reactivos y vacunas en tiempo real. Respaldada por más de 500 laboratorios en todo el mundo.",
+    meta_keywords:
+      "monitoreo de laboratorios, monitoreo de cadena de frío, almacenamiento de vacunas, monitoreo de reactivos, alertas de temperatura, cumplimiento de laboratorio",
 
     // Header & Navigation
     nav_logo_aria: "Inicio de CryoVigil",
@@ -220,6 +261,9 @@ const translations = {
     nav_videos: "Videos",
     nav_pricing: "Precios",
     nav_about_us: "Nosotros",
+    nav_contact: "Contacto",
+    nav_sign_in: "Iniciar Sesión",
+    nav_sign_up: "Registrarse",
     nav_lang_aria: "Elegir idioma",
     nav_mobile_btn_open: "Abrir navegación",
     nav_mobile_btn_close: "Cerrar navegación",
@@ -227,8 +271,11 @@ const translations = {
     // Hero Section
     hero_badge: "Monitoreo de Laboratorio Potenciado por IoT",
     hero_title: "Monitoreo Inteligente para Laboratorios Seguros",
-    hero_description: "Plataforma automatizada para prevenir la pérdida de reactivos y vacunas en tiempo real. Más de 500 laboratorios confían en nosotros.",
-    hero_cta_explore: "Explorar Soluciones",
+    hero_description:
+      "Plataforma automatizada para prevenir la pérdida de reactivos y vacunas en tiempo real. Más de 500 laboratorios confían en nosotros.",
+    hero_cta_explore: "Comenzar",
+    hero_cta_provider: "Registrarse como Proveedor",
+    hero_cta_signin: "Iniciar Sesión",
     hero_cta_features: "Ver Características",
     hero_img_alt: "Panel de monitoreo de laboratorio",
     hero_trusted: "Respaldado por laboratorios líderes en todo el mundo",
@@ -236,20 +283,24 @@ const translations = {
     // Features Section
     features_badge: "Capacidades Principales",
     features_title: "Funcionalidades Clave para un Control Total",
-    features_subtitle: "Todo lo que necesita para proteger sus activos de laboratorio y cumplir con los estándares normativos.",
+    features_subtitle:
+      "Todo lo que necesita para proteger sus activos de laboratorio y cumplir con los estándares normativos.",
     features_swipe: 'Desliza para explorar <span aria-hidden="true">→</span>',
     features_card1_title: "Alertas en Tiempo Real",
-    features_card1_desc: "Reciba notificaciones instantáneas por SMS y correo electrónico al segundo en que ocurra una desviación de temperatura.",
+    features_card1_desc:
+      "Reciba notificaciones instantáneas por SMS y correo electrónico al segundo en que ocurra una desviación de temperatura.",
     features_card1_item1: "Alertas por SMS, correo y push",
     features_card1_item2: "Umbrales configurables por sensor",
     features_card1_item3: "Cadenas de escalamiento y turnos de guardia",
     features_card2_title: "Reportes de Cumplimiento",
-    features_card2_desc: "Genere registros listos para auditorías y exporte datos históricos, ahorrando horas de registro manual a su equipo.",
+    features_card2_desc:
+      "Genere registros listos para auditorías y exporte datos históricos, ahorrando horas de registro manual a su equipo.",
     features_card2_item1: "Listo para FDA 21 CFR Parte 11",
     features_card2_item2: "Exportación a PDF y CSV en un clic",
     features_card2_item3: "Pistas de auditoría a prueba de manipulaciones",
     features_card3_title: "Panel Centralizado",
-    features_card3_desc: "Monitoree todos sus dispositivos en múltiples sedes de laboratorio desde una interfaz intuitiva.",
+    features_card3_desc:
+      "Monitoree todos sus dispositivos en múltiples sedes de laboratorio desde una interfaz intuitiva.",
     features_card3_item1: "Soporte multisitio y multizona",
     features_card3_item2: "Control de acceso basado en roles",
     features_card3_item3: "Interfaz adaptable para dispositivos móviles",
@@ -257,55 +308,76 @@ const translations = {
     // Lab Environments / Target Audience Section
     audience_badge: "A Quién Va Dirigido",
     audience_title: "Diseñado para Todo Entorno de Laboratorio",
-    audience_subtitle: "CryoVigil se adapta a las exigencias únicas de su sector.",
+    audience_subtitle:
+      "CryoVigil se adapta a las exigencias únicas de su sector.",
     audience_swipe: 'Desliza para explorar <span aria-hidden="true">→</span>',
     audience_card1_title: "Laboratorios de Investigación",
     audience_card1_pain_label: "Puntos Críticos:",
-    audience_card1_pain1: "Pérdida de muestras por fallas no detectadas en congeladores",
-    audience_card1_pain2: "El registro manual consume tiempo valioso de los investigadores",
-    audience_card1_pain3: "Las auditorías de cumplimiento requieren semanas de preparación",
-    audience_card1_footer: "Proteja años de investigación irreemplazable con un monitoreo autónomo activo las 24 horas.",
+    audience_card1_pain1:
+      "Pérdida de muestras por fallas no detectadas en congeladores",
+    audience_card1_pain2:
+      "El registro manual consume tiempo valioso de los investigadores",
+    audience_card1_pain3:
+      "Las auditorías de cumplimiento requieren semanas de preparación",
+    audience_card1_footer:
+      "Proteja años de investigación irreemplazable con un monitoreo autónomo activo las 24 horas.",
     audience_card2_title: "Hospitales y Clínicas",
     audience_card2_pain_label: "Puntos Críticos:",
-    audience_card2_pain1: "El deterioro de vacunas pone en riesgo la seguridad del paciente",
-    audience_card2_pain2: "Las fallas fuera de horario pasan desapercibidas hasta el día siguiente",
+    audience_card2_pain1:
+      "El deterioro de vacunas pone en riesgo la seguridad del paciente",
+    audience_card2_pain2:
+      "Las fallas fuera de horario pasan desapercibidas hasta el día siguiente",
     audience_card2_pain3: "El incumplimiento normativo acarrea severas multas",
-    audience_card2_footer: "Garantice la seguridad del paciente con monitoreo 24/7 y protocolos inmediatos de escalamiento de emergencias.",
+    audience_card2_footer:
+      "Garantice la seguridad del paciente con monitoreo 24/7 y protocolos inmediatos de escalamiento de emergencias.",
     audience_card3_title: "Industria Farmacéutica",
     audience_card3_pain_label: "Puntos Críticos:",
-    audience_card3_pain1: "El cumplimiento GxP exige registros continuos e ininterrumpidos",
-    audience_card3_pain2: "La trazabilidad de la cadena de frío multisitio es compleja",
-    audience_card3_pain3: "Las pérdidas de lotes de medicamentos cuestan millones por incidente",
-    audience_card3_footer: "Visibilidad integral de la cadena de frío con registros inalterables diseñados para entornos GMP/GLP.",
+    audience_card3_pain1:
+      "El cumplimiento GxP exige registros continuos e ininterrumpidos",
+    audience_card3_pain2:
+      "La trazabilidad de la cadena de frío multisitio es compleja",
+    audience_card3_pain3:
+      "Las pérdidas de lotes de medicamentos cuestan millones por incidente",
+    audience_card3_footer:
+      "Visibilidad integral de la cadena de frío con registros inalterables diseñados para entornos GMP/GLP.",
 
     // Integration Section
     integration_img_alt: "Vista general del panel",
     integration_badge: "Fácil Integración",
     integration_title: "Integración Perfecta con su Laboratorio",
-    integration_description: "Conecte sus equipos existentes en minutos. Nuestros sensores IoT inalámbricos no requieren instalaciones complejas y sincronizan datos con su panel al instante.",
+    integration_description:
+      "Conecte sus equipos existentes en minutos. Nuestros sensores IoT inalámbricos no requieren instalaciones complejas y sincronizan datos con su panel al instante.",
     integration_item1_title: "Sensores IoT Inalámbricos",
-    integration_item1_desc: "Sin cableado ni interrupciones: instalación en menos de 5 minutos",
+    integration_item1_desc:
+      "Sin cableado ni interrupciones: instalación en menos de 5 minutos",
     integration_item2_title: "Plataforma Nativa en la Nube",
-    integration_item2_desc: "Acceda a sus datos desde cualquier dispositivo y lugar",
+    integration_item2_desc:
+      "Acceda a sus datos desde cualquier dispositivo y lugar",
     integration_item3_title: "Integración con API y LIMS",
-    integration_item3_desc: "Conéctese a sus sistemas actuales mediante una API REST abierta",
+    integration_item3_desc:
+      "Conéctese a sus sistemas actuales mediante una API REST abierta",
     integration_cta: "Pruébelo Ahora",
 
     // Compliance Section
     compliance_badge: "Confianza Regulatoria",
     compliance_title: "Cumplimiento Listo para Auditorías",
-    compliance_description: "No vuelva a preocuparse por auditorías de cumplimiento. CryoVigil genera automáticamente registros térmicos e informes detallados que cumplen con rigurosos estándares regulatorios como FDA 21 CFR Parte 11, GMP, GLP e ISO 17025.",
-    compliance_item1: "Registros electrónicos compatibles con FDA 21 CFR Parte 11",
+    compliance_description:
+      "No vuelva a preocuparse por auditorías de cumplimiento. CryoVigil genera automáticamente registros térmicos e informes detallados que cumplen con rigurosos estándares regulatorios como FDA 21 CFR Parte 11, GMP, GLP e ISO 17025.",
+    compliance_item1:
+      "Registros electrónicos compatibles con FDA 21 CFR Parte 11",
     compliance_item2: "Registros continuos de monitoreo para GMP/GLP",
     compliance_item3: "Respaldo para acreditación ISO 17025",
     compliance_item4: "Gestión de datos en conformidad con HIPAA",
-    compliance_img_alt: "Vista general de auditoría y registros de cumplimiento",
+    compliance_img_alt:
+      "Vista general de auditoría y registros de cumplimiento",
 
     // Pricing Section
     pricing_badge: "Precios Transparentes",
     pricing_title: "Precios Simples y Transparentes",
-    pricing_subtitle: "Sin costos ocultos. Escale a medida que su laboratorio crezca.",
-    pricing_swipe: 'Desliza para comparar planes <span aria-hidden="true">→</span>',
+    pricing_subtitle:
+      "Sin costos ocultos. Escale a medida que su laboratorio crezca.",
+    pricing_swipe:
+      'Desliza para comparar planes <span aria-hidden="true">→</span>',
     pricing_plan1_category: "Monitoreo de Laboratorio",
     pricing_plan1_title: "Estándar",
     pricing_plan1_price: "$299",
@@ -333,53 +405,74 @@ const translations = {
     // Video Section
     videos_badge: "Véalo en Acción",
     videos_title: "Observe y Conozca Más",
-    videos_subtitle: "Conozca más de cerca CryoVigil y al equipo detrás del proyecto.",
-    videos_card1_title: "Recorrido por la Plataforma",
-    videos_card2_title: "Detrás de la Arquitectura",
+    videos_subtitle:
+      "Conozca más de cerca CryoVigil y al equipo detrás del proyecto.",
+    videos_card1_title: "Acerca del Producto",
+    videos_card2_title: "Acerca del Equipo",
+    video_product_aria: "Reproductor del video del producto CryoVigil",
+    video_team_aria: "Reproductor del video del equipo CryoVigil",
+    videos_unavailable: "Video próximamente. La grabación se agregará aquí.",
 
     // Team Section
     team_badge: "Nuestro Equipo",
     team_title: "Conoce a Nuestro Equipo",
-    team_subtitle: "Un equipo multidisciplinario de científicos, ingenieros y especialistas en producto unidos por una misión.",
-    team_swipe: 'Desliza para conocer al equipo <span aria-hidden="true">→</span>',
+    team_subtitle:
+      "Un equipo multidisciplinario de científicos, ingenieros y especialistas en producto unidos por una misión.",
+    team_swipe:
+      'Desliza para conocer al equipo <span aria-hidden="true">→</span>',
     team_member1_name: "Arizabal Condori,",
     team_member1_first: "Jean Niels",
-    team_member1_desc: "Estudiante de Ingeniería de Software enfocado en programación de bajo nivel, con un fuerte énfasis en programación de sistemas y sistemas embebidos.",
+    team_member1_desc:
+      "Estudiante de Ingeniería de Software enfocado en programación de bajo nivel, con un fuerte énfasis en programación de sistemas y sistemas embebidos.",
     team_member2_name: "Homola,",
     team_member2_first: "Tomas",
-    team_member2_desc: "Estudiante de intercambio especializado en reconocimiento de imágenes con IA, gestión de requerimientos y diseño de interfaces.",
+    team_member2_desc:
+      "Estudiante de intercambio especializado en reconocimiento de imágenes con IA, gestión de requerimientos y diseño de interfaces.",
     team_member3_name: "Linares Rodriguez,",
     team_member3_first: "Franco Orlando",
-    team_member3_desc: "Apasionado estudiante de Ingeniería de Software con habilidades en C++, desarrollo web y gestión de bases de datos SQL.",
+    team_member3_desc:
+      "Apasionado estudiante de Ingeniería de Software con habilidades en C++, desarrollo web y gestión de bases de datos SQL.",
     team_member4_name: "Padilla Merino,",
     team_member4_first: "Mauricio Jared",
-    team_member4_desc: "Líder de equipo adaptable enfocado en la organización del alcance del proyecto y delegación eficiente de tareas.",
+    team_member4_desc:
+      "Líder de equipo adaptable enfocado en la organización del alcance del proyecto y delegación eficiente de tareas.",
     team_member5_name: "Reyes Munoz,",
     team_member5_first: "Joaquin Leonardo",
-    team_member5_desc: "Desarrollador paciente y dedicado, impulsado por el aprendizaje continuo, resolución de problemas y trabajo colaborativo.",
+    team_member5_desc:
+      "Desarrollador paciente y dedicado, impulsado por el aprendizaje continuo, resolución de problemas y trabajo colaborativo.",
 
     // Testimonials Section
     testimonials_badge: "Testimonios",
     testimonials_title: "Lo Que Dicen Nuestros Clientes",
-    testimonials_swipe: 'Desliza para leer opiniones <span aria-hidden="true">→</span>',
-    testimonials_card1_quote: '"CryoVigil nos salvó de una pérdida catastrófica de muestras durante un corte de energía un fin de semana largo. La alerta por SMS llegó a nuestro personal de guardia en 30 segundos. Absolutamente indispensable."',
+    testimonials_swipe:
+      'Desliza para leer opiniones <span aria-hidden="true">→</span>',
+    testimonials_card1_quote:
+      '"CryoVigil nos salvó de una pérdida catastrófica de muestras durante un corte de energía un fin de semana largo. La alerta por SMS llegó a nuestro personal de guardia en 30 segundos. Absolutamente indispensable."',
     testimonials_card1_name: "Dra. Claire Morton",
-    testimonials_card1_role: "Jefa de Biobanco, Instituto de Investigación St. Mary",
-    testimonials_card2_quote: '"Nuestra inspección de la FDA se desarrolló sin inconvenientes por primera vez en años. El auditor quedó impresionado con lo completos e inalterables que estaban nuestros registros de temperatura. CryoVigil lo hizo sencillo."',
+    testimonials_card1_role:
+      "Jefa de Biobanco, Instituto de Investigación St. Mary",
+    testimonials_card2_quote:
+      '"Nuestra inspección de la FDA se desarrolló sin inconvenientes por primera vez en años. El auditor quedó impresionado con lo completos e inalterables que estaban nuestros registros de temperatura. CryoVigil lo hizo sencillo."',
     testimonials_card2_name: "Robert Tanaka",
-    testimonials_card2_role: "Vicepresidente de Aseguramiento de Calidad, NovaBio Pharma",
-    testimonials_card3_quote: '"Administramos 14 centros hospitalarios. Antes de CryoVigil no teníamos visibilidad de lo que ocurría fuera de horario. Ahora tenemos total tranquilidad y la evidencia de cumplimiento para respaldarlo."',
+    testimonials_card2_role:
+      "Vicepresidente de Aseguramiento de Calidad, NovaBio Pharma",
+    testimonials_card3_quote:
+      '"Administramos 14 centros hospitalarios. Antes de CryoVigil no teníamos visibilidad de lo que ocurría fuera de horario. Ahora tenemos total tranquilidad y la evidencia de cumplimiento para respaldarlo."',
     testimonials_card3_name: "Maria Santos",
-    testimonials_card3_role: "Directora de Laboratorio, Red Hospitalaria HealthFirst",
+    testimonials_card3_role:
+      "Directora de Laboratorio, Red Hospitalaria HealthFirst",
 
     // Final CTA Section
-    final_title: "¿Listo para eliminar los riesgos de temperatura en su laboratorio?",
-    final_desc: "Únase a más de 500 laboratorios que ya protegen sus activos con CryoVigil. Comience su prueba gratuita hoy, sin tarjeta de crédito.",
-    final_cta_trial: "Pruébelo Ahora",
+    final_title:
+      "¿Listo para eliminar los riesgos de temperatura en su laboratorio?",
+    final_desc:
+      "Únase a más de 500 laboratorios que ya protegen sus activos con CryoVigil. Comience su prueba gratuita hoy, sin tarjeta de crédito.",
+    final_cta_trial: "Comenzar",
     final_cta_features: "Ver Características",
 
     // Footer
-    footer_tagline: "Precisión en cada análisis. Protegiendo el futuro de la investigación científica mediante el monitoreo inteligente de la cadena de frío.",
+    footer_tagline:
+      "Precisión en cada análisis. Protegiendo el futuro de la investigación científica mediante el monitoreo inteligente de la cadena de frío.",
     footer_col_product: "Producto",
     footer_col_company: "Empresa",
     footer_col_support: "Soporte",
@@ -411,13 +504,14 @@ const translations = {
     footer_link_cip: "Declaración Ética CIP",
 
     footer_ethics_title: "Declaración de Ética y Responsabilidad",
-    footer_ethics_desc: "CryoVigil está comprometido con el desarrollo tecnológico responsable de acuerdo con el Código de Ética de ACM, el Código de Ética de IEEE y los principios CIP (Protección de Infraestructuras Críticas). Nuestra plataforma está diseñada para respaldar la integridad científica, la seguridad del paciente y la protección ambiental. No comercializamos datos de usuarios, cumplimos plenamente con GDPR e HIPAA y realizamos auditorías de seguridad anuales independientes.",
+    footer_ethics_desc:
+      "CryoVigil está comprometido con el desarrollo tecnológico responsable de acuerdo con el Código de Ética de ACM, el Código de Ética de IEEE y los principios CIP (Protección de Infraestructuras Críticas). Nuestra plataforma está diseñada para respaldar la integridad científica, la seguridad del paciente y la protección ambiental. No comercializamos datos de usuarios, cumplimos plenamente con GDPR e HIPAA y realizamos auditorías de seguridad anuales independientes.",
 
-    footer_copyright: "© 2026 CryoVigil Technologies, Inc. Todos los derechos reservados.",
+    footer_copyright:
+      "© 2026 CryoVigil Technologies, Inc. Todos los derechos reservados.",
     footer_bottom_terms: "Términos de Servicio",
-    footer_bottom_privacy: "Política de Privacidad",
-    footer_bottom_contact: "Contacto: hello@cryovigil.com"
-  }
+    footer_bottom_contact: "Contacto: hello@cryovigil.com",
+  },
 };
 
 if (typeof window !== "undefined") {
