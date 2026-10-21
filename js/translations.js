@@ -127,7 +127,7 @@ const translations = {
     pricing_plan1_item3: "Multi-zone sensor calibration",
     pricing_plan1_item4: "Email & SMS alerts",
     pricing_plan1_item5: "7-year data retention",
-    pricing_plan1_cta: "Start Free Trial",
+    pricing_plan1_cta: "Register Now",
 
     pricing_plan2_badge: "Most Popular",
     pricing_plan2_category: "Multi-site Enterprise",
@@ -387,7 +387,7 @@ const translations = {
     pricing_plan1_item3: "Calibración multizona de sensores",
     pricing_plan1_item4: "Alertas por correo y SMS",
     pricing_plan1_item5: "Retención de datos por 7 años",
-    pricing_plan1_cta: "Comenzar Prueba Gratuita",
+    pricing_plan1_cta: "Registrate ahora",
 
     pricing_plan2_badge: "Más Popular",
     pricing_plan2_category: "Empresarial Multisitio",
