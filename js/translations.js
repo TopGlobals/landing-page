@@ -24,7 +24,7 @@ const translations = {
     hero_badge: "IoT-Powered Laboratory Monitoring",
     hero_title: "Smart Monitoring for Safe Laboratories",
     hero_description:
-      "Automated platform to prevent the loss of reagents and vaccines in real time. Trusted by 500+ labs worldwide.",
+      "Protect years of irreplaceable research. Automated platform to prevent the loss of reagents and vaccines in real time — trusted by 500+ labs worldwide.",
     hero_cta_explore: "Get Started",
     hero_cta_provider: "Register as Provider",
     hero_cta_signin: "Sign In",
@@ -271,8 +271,7 @@ const translations = {
     // Hero Section
     hero_badge: "Monitoreo de Laboratorio Potenciado por IoT",
     hero_title: "Monitoreo Inteligente para Laboratorios Seguros",
-    hero_description:
-      "Plataforma automatizada para prevenir la pérdida de reactivos y vacunas en tiempo real. Más de 500 laboratorios confían en nosotros.",
+    hero_description: "Protege años de investigación insustituible. Plataforma automatizada para prevenir la pérdida de reactivos y vacunas en tiempo real, con la confianza de más de 500 laboratorios en el mundo.",
     hero_cta_explore: "Comenzar",
     hero_cta_provider: "Registrarse como Proveedor",
     hero_cta_signin: "Iniciar Sesión",
