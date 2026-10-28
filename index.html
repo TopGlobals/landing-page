@@ -246,8 +246,8 @@
                 class="text-base sm:text-lg text-slate-600 mb-8 max-w-lg leading-relaxed"
                 data-i18n="hero_description"
               >
-                Automated platform to prevent the loss of reagents and vaccines
-                in real time. Trusted by 500+ labs worldwide.
+                Protect years of irreplaceable research. Automated platform to prevent the loss of reagents and vaccines in real time
+                — trusted by 500+ labs worldwide.
               </p>
               <div class="flex flex-col sm:flex-row gap-4">
                 <a
@@ -1004,6 +1004,58 @@
         </div>
       </section>
       <!-- END: ComplianceSection -->
+      <!-- BEGIN: ProductVideoSection -->
+      <section
+              class="py-20 bg-white"
+              data-purpose="video-demonstrations"
+              id="videos"
+      >
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span class="badge-pill mb-3" data-i18n="videos_badge"
+          >See It In Action</span
+          >
+          <h2
+                  class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4"
+                  data-i18n="videos_title"
+          >
+            Watch and Learn
+          </h2>
+          <p
+                  class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base"
+                  data-i18n="videos_subtitle"
+          >
+            Get a closer look at CryoVigil platform.
+          </p>
+          <!-- Product Video Card -->
+          <div class="max-w-2xl mx-auto">
+            <div
+                    class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 shadow-lg"
+            >
+              <video
+                      class="w-full aspect-video object-cover"
+                      controls
+                      preload="none"
+                      poster="assets/img/dashboard_overview.jpeg"
+                      aria-label="CryoVigil product video player"
+                      data-i18n-aria-label="video_product_aria"
+              ></video>
+              <p
+                      class="px-5 pt-4 text-left text-sm font-bold text-white"
+                      data-i18n="videos_card1_title"
+              >
+                About the Product
+              </p>
+              <p
+                      class="px-5 pb-4 text-left text-xs text-slate-300"
+                      data-i18n="videos_unavailable"
+              >
+                Video coming soon. A recording will be added here.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END: ProductVideoSection -->
       <!-- BEGIN: PricingSection -->
       <section
         class="py-20 bg-slate-50/50 mobile-carousel-section"
@@ -1113,7 +1165,7 @@
                 href="https://web-app-tst.web.app/subscribe/standard"
                 data-i18n="pricing_plan1_cta"
               >
-                Start Free Trial
+                Register Now
               </a>
             </div>
             <!-- Enterprise Plan -->
@@ -1202,146 +1254,69 @@
         </div>
       </section>
       <!-- END: PricingSection -->
-      <!-- BEGIN: VideoSection -->
-      <section
-        class="py-20 bg-white"
-        data-purpose="video-demonstrations"
-        id="videos"
-      >
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span class="badge-pill mb-3" data-i18n="videos_badge"
-            >See It In Action</span
-          >
-          <h2
-            class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4"
-            data-i18n="videos_title"
-          >
-            Watch and Learn
-          </h2>
-          <p
-            class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base"
-            data-i18n="videos_subtitle"
-          >
-            Get a closer look at CryoVigil and the people behind it.
-          </p>
-          <!-- Video Cards -->
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <!-- Video sources will be added when recordings are available. -->
-            <div
-              class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 shadow-lg"
-            >
-              <video
-                class="w-full aspect-video object-cover"
-                controls
-                preload="none"
-                poster="assets/img/dashboard_overview.jpeg"
-                aria-label="CryoVigil product video player"
-                data-i18n-aria-label="video_product_aria"
-              ></video>
-              <p
-                class="px-5 pt-4 text-left text-sm text-white"
-                data-i18n="videos_card1_title"
-              >
-                About the Product
-              </p>
-              <p
-                class="px-5 pb-4 text-left text-xs text-slate-300"
-                data-i18n="videos_unavailable"
-              >
-                Video coming soon. A recording will be added here.
-              </p>
-            </div>
-            <div
-              class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 shadow-lg"
-            >
-              <video
-                class="w-full aspect-video object-cover"
-                controls
-                preload="none"
-                poster="assets/img/member1.png"
-                aria-label="CryoVigil team video player"
-                data-i18n-aria-label="video_team_aria"
-              ></video>
-              <p
-                class="px-5 pt-4 text-left text-sm text-white"
-                data-i18n="videos_card2_title"
-              >
-                About the Team
-              </p>
-              <p
-                class="px-5 pb-4 text-left text-xs text-slate-300"
-                data-i18n="videos_unavailable"
-              >
-                Video coming soon. A recording will be added here.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END: VideoSection -->
       <!-- BEGIN: TeamSection -->
       <section
-        class="py-20 bg-slate-50/50 mobile-carousel-section"
-        data-purpose="team-members"
-        id="about-us"
+              class="py-20 bg-slate-50/50 mobile-carousel-section"
+              data-purpose="team-members"
+              id="about-us"
       >
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span class="badge-pill mb-3" data-i18n="team_badge">The People</span>
           <h2
-            class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4"
-            data-i18n="team_title"
+                  class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4"
+                  data-i18n="team_title"
           >
             Meet Our Team
           </h2>
           <p
-            class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base mobile-section-intro"
-            data-i18n="team_subtitle"
+                  class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base mobile-section-intro"
+                  data-i18n="team_subtitle"
           >
             A multidisciplinary team of scientists, engineers, and product
             experts united by one mission.
           </p>
           <p
-            class="mobile-swipe-hint"
-            data-i18n="team_swipe"
-            data-i18n-html="true"
+                  class="mobile-swipe-hint"
+                  data-i18n="team_swipe"
+                  data-i18n-html="true"
           >
             Swipe to meet the team <span aria-hidden="true">→</span>
           </p>
           <!-- Team Members Grid -->
           <div
-            aria-label="Team members"
-            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 text-center mobile-carousel"
-            role="region"
-            tabindex="0"
+                  aria-label="Team members"
+                  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 text-center mobile-carousel"
+                  role="region"
+                  tabindex="0"
           >
             <!-- Team Member 1 -->
             <div
-              class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
+                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
             >
               <div
-                class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
+                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
               >
                 <img
-                  class="w-full h-full object-cover"
-                  src="assets/img/member1.png"
-                  alt="Jean Niels Arizabal Condori"
+                        class="w-full h-full object-cover"
+                        src="assets/img/member1.png"
+                        alt="Jean Niels Arizabal Condori"
                 />
               </div>
               <h3
-                class="text-sm font-bold text-slate-900 leading-tight"
-                data-i18n="team_member1_name"
+                      class="text-sm font-bold text-slate-900 leading-tight"
+                      data-i18n="team_member1_name"
               >
                 Arizabal Condori,
               </h3>
               <p
-                class="text-xs font-bold text-slate-900 mb-2"
-                data-i18n="team_member1_first"
+                      class="text-xs font-bold text-slate-900 mb-2"
+                      data-i18n="team_member1_first"
               >
                 Jean Niels
               </p>
               <p
-                class="text-[11px] text-slate-500 leading-relaxed"
-                data-i18n="team_member1_desc"
+                      class="text-[11px] text-slate-500 leading-relaxed"
+                      data-i18n="team_member1_desc"
               >
                 Software Engineering student focused on low-level programming,
                 with a strong emphasis on systems programming and embedded
@@ -1350,32 +1325,32 @@
             </div>
             <!-- Team Member 2 -->
             <div
-              class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
+                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
             >
               <div
-                class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
+                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
               >
                 <img
-                  class="w-full h-full object-cover"
-                  src="assets/img/member2.jpeg"
-                  alt="Tomas Homola"
+                        class="w-full h-full object-cover"
+                        src="assets/img/member2.jpeg"
+                        alt="Tomas Homola"
                 />
               </div>
               <h3
-                class="text-sm font-bold text-slate-900 leading-tight"
-                data-i18n="team_member2_name"
+                      class="text-sm font-bold text-slate-900 leading-tight"
+                      data-i18n="team_member2_name"
               >
                 Homola,
               </h3>
               <p
-                class="text-xs font-bold text-slate-900 mb-2"
-                data-i18n="team_member2_first"
+                      class="text-xs font-bold text-slate-900 mb-2"
+                      data-i18n="team_member2_first"
               >
                 Tomas
               </p>
               <p
-                class="text-[11px] text-slate-500 leading-relaxed"
-                data-i18n="team_member2_desc"
+                      class="text-[11px] text-slate-500 leading-relaxed"
+                      data-i18n="team_member2_desc"
               >
                 Exchange student specializing in AI-driven image recognition,
                 requirements management, and UI design.
@@ -1383,32 +1358,32 @@
             </div>
             <!-- Team Member 3 -->
             <div
-              class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
+                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
             >
               <div
-                class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
+                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
               >
                 <img
-                  class="w-full h-full object-cover"
-                  src="assets/img/member3.jpg"
-                  alt="Franco Orlando Linares Rodriguez"
+                        class="w-full h-full object-cover"
+                        src="assets/img/member3.jpg"
+                        alt="Franco Orlando Linares Rodriguez"
                 />
               </div>
               <h3
-                class="text-sm font-bold text-slate-900 leading-tight"
-                data-i18n="team_member3_name"
+                      class="text-sm font-bold text-slate-900 leading-tight"
+                      data-i18n="team_member3_name"
               >
                 Linares Rodriguez,
               </h3>
               <p
-                class="text-xs font-bold text-slate-900 mb-2"
-                data-i18n="team_member3_first"
+                      class="text-xs font-bold text-slate-900 mb-2"
+                      data-i18n="team_member3_first"
               >
                 Franco Orlando
               </p>
               <p
-                class="text-[11px] text-slate-500 leading-relaxed"
-                data-i18n="team_member3_desc"
+                      class="text-[11px] text-slate-500 leading-relaxed"
+                      data-i18n="team_member3_desc"
               >
                 Passionate Software Engineering student skilled in C++, web
                 development, and SQL database management.
@@ -1416,32 +1391,32 @@
             </div>
             <!-- Team Member 4 -->
             <div
-              class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
+                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
             >
               <div
-                class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
+                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
               >
                 <img
-                  class="w-full h-full object-cover"
-                  src="assets/img/member4.jpeg"
-                  alt="Mauricio Jared Padilla Merino"
+                        class="w-full h-full object-cover"
+                        src="assets/img/member4.jpeg"
+                        alt="Mauricio Jared Padilla Merino"
                 />
               </div>
               <h3
-                class="text-sm font-bold text-slate-900 leading-tight"
-                data-i18n="team_member4_name"
+                      class="text-sm font-bold text-slate-900 leading-tight"
+                      data-i18n="team_member4_name"
               >
                 Padilla Merino,
               </h3>
               <p
-                class="text-xs font-bold text-slate-900 mb-2"
-                data-i18n="team_member4_first"
+                      class="text-xs font-bold text-slate-900 mb-2"
+                      data-i18n="team_member4_first"
               >
                 Mauricio Jared
               </p>
               <p
-                class="text-[11px] text-slate-500 leading-relaxed"
-                data-i18n="team_member4_desc"
+                      class="text-[11px] text-slate-500 leading-relaxed"
+                      data-i18n="team_member4_desc"
               >
                 Adaptable team leader focused on project scope organization and
                 efficient task delegation.
@@ -1449,32 +1424,32 @@
             </div>
             <!-- Team Member 5 -->
             <div
-              class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
+                    class="bg-white p-6 rounded-2xl border border-slate-100 shadow-soft"
             >
               <div
-                class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
+                      class="w-24 h-24 mx-auto rounded-full bg-slate-200 mb-4 overflow-hidden flex items-center justify-center"
               >
                 <img
-                  class="w-full h-full object-cover"
-                  src="assets/img/member5.jpeg"
-                  alt="Joaquin Leonardo Reyes Munoz"
+                        class="w-full h-full object-cover"
+                        src="assets/img/member5.jpeg"
+                        alt="Joaquin Leonardo Reyes Munoz"
                 />
               </div>
               <h3
-                class="text-sm font-bold text-slate-900 leading-tight"
-                data-i18n="team_member5_name"
+                      class="text-sm font-bold text-slate-900 leading-tight"
+                      data-i18n="team_member5_name"
               >
                 Reyes Munoz,
               </h3>
               <p
-                class="text-xs font-bold text-slate-900 mb-2"
-                data-i18n="team_member5_first"
+                      class="text-xs font-bold text-slate-900 mb-2"
+                      data-i18n="team_member5_first"
               >
                 Joaquin Leonardo
               </p>
               <p
-                class="text-[11px] text-slate-500 leading-relaxed"
-                data-i18n="team_member5_desc"
+                      class="text-[11px] text-slate-500 leading-relaxed"
+                      data-i18n="team_member5_desc"
               >
                 Patient and dedicated developer driven by continuous learning,
                 problem-solving, and collaborative teamwork.
@@ -1484,6 +1459,54 @@
         </div>
       </section>
       <!-- END: TeamSection -->
+      <!-- BEGIN: TeamVideoSection -->
+      <section class="py-20 bg-white" data-purpose="team-video-demonstration">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span class="badge-pill mb-3" data-i18n="team_video_badge"
+          >Meet Us</span
+          >
+          <h2
+                  class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-4"
+                  data-i18n="team_video_title"
+          >
+            About the Team
+          </h2>
+          <p
+                  class="text-slate-600 max-w-xl mx-auto mb-16 text-sm sm:text-base"
+                  data-i18n="team_video_subtitle"
+          >
+            Get a closer look at the people behind CryoVigil.
+          </p>
+          <!-- Team Video Card -->
+          <div class="max-w-2xl mx-auto">
+            <div
+                    class="rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 shadow-lg"
+            >
+              <video
+                      class="w-full aspect-video object-cover"
+                      controls
+                      preload="none"
+                      poster="assets/img/member1.png"
+                      aria-label="CryoVigil team video player"
+                      data-i18n-aria-label="video_team_aria"
+              ></video>
+              <p
+                      class="px-5 pt-4 text-left text-sm font-bold text-white"
+                      data-i18n="videos_card2_title"
+              >
+                About the Team
+              </p>
+              <p
+                      class="px-5 pb-4 text-left text-xs text-slate-300"
+                      data-i18n="videos_unavailable"
+              >
+                Video coming soon. A recording will be added here.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END: TeamVideoSection -->
       <!-- BEGIN: TestimonialsSection -->
       <section
         class="py-20 bg-white mobile-carousel-section"

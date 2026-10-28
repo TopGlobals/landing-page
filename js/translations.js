@@ -24,7 +24,7 @@ const translations = {
     hero_badge: "IoT-Powered Laboratory Monitoring",
     hero_title: "Smart Monitoring for Safe Laboratories",
     hero_description:
-      "Automated platform to prevent the loss of reagents and vaccines in real time. Trusted by 500+ labs worldwide.",
+      "Protect years of irreplaceable research. Automated platform to prevent the loss of reagents and vaccines in real time — trusted by 500+ labs worldwide.",
     hero_cta_explore: "Get Started",
     hero_cta_provider: "Register as Provider",
     hero_cta_signin: "Sign In",
@@ -127,7 +127,7 @@ const translations = {
     pricing_plan1_item3: "Multi-zone sensor calibration",
     pricing_plan1_item4: "Email & SMS alerts",
     pricing_plan1_item5: "7-year data retention",
-    pricing_plan1_cta: "Start Free Trial",
+    pricing_plan1_cta: "Register Now",
 
     pricing_plan2_badge: "Most Popular",
     pricing_plan2_category: "Multi-site Enterprise",
@@ -150,6 +150,9 @@ const translations = {
     video_product_aria: "CryoVigil product video player",
     video_team_aria: "CryoVigil team video player",
     videos_unavailable: "Video coming soon. A recording will be added here.",
+    team_video_badge: "Meet Us",
+    team_video_title: "About the Team Video",
+    team_video_subtitle: "Get a closer look at the people behind CryoVigil.",
 
     // Team Section
     team_badge: "The People",
@@ -271,8 +274,7 @@ const translations = {
     // Hero Section
     hero_badge: "Monitoreo de Laboratorio Potenciado por IoT",
     hero_title: "Monitoreo Inteligente para Laboratorios Seguros",
-    hero_description:
-      "Plataforma automatizada para prevenir la pérdida de reactivos y vacunas en tiempo real. Más de 500 laboratorios confían en nosotros.",
+    hero_description: "Protege años de investigación insustituible. Plataforma automatizada para prevenir la pérdida de reactivos y vacunas en tiempo real, con la confianza de más de 500 laboratorios en el mundo.",
     hero_cta_explore: "Comenzar",
     hero_cta_provider: "Registrarse como Proveedor",
     hero_cta_signin: "Iniciar Sesión",
@@ -388,7 +390,7 @@ const translations = {
     pricing_plan1_item3: "Calibración multizona de sensores",
     pricing_plan1_item4: "Alertas por correo y SMS",
     pricing_plan1_item5: "Retención de datos por 7 años",
-    pricing_plan1_cta: "Comenzar Prueba Gratuita",
+    pricing_plan1_cta: "Registrate ahora",
 
     pricing_plan2_badge: "Más Popular",
     pricing_plan2_category: "Empresarial Multisitio",
@@ -412,6 +414,9 @@ const translations = {
     video_product_aria: "Reproductor del video del producto CryoVigil",
     video_team_aria: "Reproductor del video del equipo CryoVigil",
     videos_unavailable: "Video próximamente. La grabación se agregará aquí.",
+    team_video_badge: "Conócenos",
+    team_video_title: "Video sobre el Equipo",
+    team_video_subtitle: "Conozca más de cerca a las personas detrás de CryoVigil.",
 
     // Team Section
     team_badge: "Nuestro Equipo",
